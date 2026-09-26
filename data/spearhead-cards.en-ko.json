@@ -1265,8 +1265,8 @@
             "ko": "라운드 시작, 언더독 판정 후"
           },
           "mechanics": {
-            "en": "A chosen objective gets a notional friendly unit with an unmodifiable control score of 1 until the end of the round. With no underdog, the roll-off winner chooses.",
-            "ko": "선택한 목표물에 라운드 종료까지 수정 불가 컨트롤 점수 1의 가상 아군 유닛이 경합하는 것으로 취급. 언더독이 없으면 롤오프 승자가 목표물을 선택."
+            "en": "The underdog (or, if there is no underdog, the roll-off winner) chooses 1 objective. Until the end of the round, a notional unit belonging to the choosing player, with an unmodifiable control score of 1, is treated as contesting it.",
+            "ko": "언더독(언더독이 없으면 롤오프 승자)이 목표물 1개를 선택. 라운드 종료까지 그 목표물에는 선택한 플레이어의 가상 유닛(수정 불가 컨트롤 점수 1)이 경합하는 것으로 취급."
           },
           "scoreTiming": "none",
           "automationAllowed": false,
@@ -1303,8 +1303,8 @@
             "ko": "라운드 시작, 언더독 판정 후"
           },
           "mechanics": {
-            "en": "The underdog, or the roll-off winner if tied, chooses: one friendly unit gets STRIKE-FIRST while wholly within friendly territory; or one enemy unit gets STRIKE-LAST while wholly within territory. Lasts this round.",
-            "ko": "언더독 또는 동점 시 롤오프 승자가 선택: 아군 1개가 아군 영토에 완전히 있으면 STRIKE-FIRST, 또는 적 1개가 영토에 완전히 있으면 STRIKE-LAST. 이번 라운드 적용."
+            "en": "The underdog (or, if there is no underdog, the roll-off winner) chooses one: a friendly unit gets STRIKE-FIRST while wholly within friendly territory; or an enemy unit gets STRIKE-LAST while wholly within the choosing player’s territory. Lasts this round.",
+            "ko": "언더독(언더독이 없으면 롤오프 승자)이 하나를 선택: 아군 유닛 1개가 아군 영토에 완전히 있으면 STRIKE-FIRST, 또는 적 유닛 1개가 선택한 플레이어의 영토에 완전히 있으면 STRIKE-LAST. 이번 라운드 적용."
           },
           "scoreTiming": "none",
           "automationAllowed": false,
@@ -2403,8 +2403,8 @@
         "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
       },
       "checkPoint": {
-        "ko": "언더독이 있을 때 목표물을 고르는 사람",
-        "en": "Who chooses the objective when there is an underdog"
+        "ko": "비공식 번역본을 참고해 정리했습니다. 실물 카드로 최종 확인하세요.",
+        "en": "Summarised with help from an unofficial translation. Confirm against the physical card."
       }
     },
     {
@@ -2416,8 +2416,8 @@
         "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
       },
       "checkPoint": {
-        "ko": "두 번째 선택지(적 유닛 STRIKE-LAST)의 영토 기준",
-        "en": "Whose territory the second option (enemy STRIKE-LAST) refers to"
+        "ko": "비공식 번역본을 참고해 정리했습니다. 실물 카드로 최종 확인하세요.",
+        "en": "Summarised with help from an unofficial translation. Confirm against the physical card."
       }
     }
   ]
