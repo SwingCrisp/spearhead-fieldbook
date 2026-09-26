@@ -274,7 +274,7 @@ window.I18N = {
   'card.disclaimer': ['비공식 요약입니다. 정확한 문구와 판정은 실물 카드 및 최신 공식 자료를 확인하세요.', 'Unofficial summary. For exact wording and rulings, consult the physical cards and the latest official materials.'],
   'card.disclaimerRule': ['비공식 요약입니다. 정확한 문구와 판정은 해당 배틀팩의 최신 공식 규칙을 확인하세요.', 'Unofficial summary. For exact wording and rulings, consult the battlepack’s latest official rules.'],
   'card.checkPoint': ['확인할 부분', 'Point to check'],
-  'card.errata': ['공식 정오표 반영', 'Official errata applied'], 'card.vp': ['+{n} VP', '+{n} VP'],
+  'card.errata': ['공식 정오표 (참고)', 'Official errata (reference)'], 'card.vp': ['+{n} VP', '+{n} VP'],
   'card.reveal': ['공개 시점', 'Revealed'], 'card.note': ['자료 메모', 'Data note'],
 
   // history
