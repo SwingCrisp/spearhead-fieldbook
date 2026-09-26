@@ -1,0 +1,10 @@
+# local / internal only
+.openai/
+.claude/
+legacy/
+node_modules/
+docs/CLAUDE-HANDOFF.md
+docs/CLAUDE-START.txt
+*.log
+.firebase/
+docs/

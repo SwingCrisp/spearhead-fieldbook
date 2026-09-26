@@ -1,0 +1,22 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "rooms": {
+      "$room": {
+        ".read": true,
+        ".validate": "$room.matches(/^[A-HJ-NP-Z2-9]{6}$/)",
+        "sync": {
+          ".write": true,
+          ".validate": "newData.child('seq').isNumber() && (!newData.child('game').exists() || (newData.child('game').isString() && newData.child('game').val().length < 300000))"
+        },
+        "undo": {
+          "$key": {
+            ".write": "!data.exists()",
+            ".validate": "newData.child('snapshot').isString() && newData.child('snapshot').val().length < 300000"
+          }
+        }
+      }
+    }
+  }
+}

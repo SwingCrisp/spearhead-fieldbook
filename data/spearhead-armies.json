@@ -1,0 +1,805 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-09-27",
+  "contentType": "names_only_no_rules_text",
+  "note": "Option names to help players pick; always check against your own army rules.",
+  "factions": [
+    {
+      "faction": "Blades of Khorne",
+      "armies": [
+        {
+          "name": "Fangs of the Blood God",
+          "regimentAbilities": [
+            "THE SCENT OF BLOOD",
+            "SAVAGERY UPON SAVAGERY"
+          ],
+          "enhancements": [
+            "SUSTAINED BY GORE",
+            "KILLING POUNCE",
+            "EVASIVE HUNTER",
+            "FURIOUS BITES"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Bloodbound Gore Pilgrims",
+          "regimentAbilities": [
+            "FAVOURED OF KHORNE",
+            "BLOOD-WOKEN RUNES"
+          ],
+          "enhancements": [
+            "RESANGUINATION",
+            "HEADHUNTER",
+            "THE CRIMSON PLATE",
+            "UNHOLY FLAMES"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Cities of Sigmar",
+      "armies": [
+        {
+          "name": "Fusil-Platoon",
+          "regimentAbilities": [
+            "WELL PROVISIONED",
+            "RESPECTED LEADER"
+          ],
+          "enhancements": [
+            "ADEPT TACTICIAN",
+            "BRACE!",
+            "SHIELD BASH",
+            "POINT-BLANK VOLLEY"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Castelite Company",
+          "regimentAbilities": [
+            "FOR SIGMAR, CHARGE!",
+            "IRONWELD DISCIPLINE"
+          ],
+          "enhancements": [
+            "FLASK OF LETHISIAN DARKWATER",
+            "BRAZIER OF HOLY FLAME",
+            "HEIRLOOM BLADE",
+            "GLIMMERING"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Sentinels of Embergard",
+          "regimentAbilities": [
+            "CLOSE-QUARTERS DRILL",
+            "COME AND TAKE IT, BLAGGARDS!"
+          ],
+          "enhancements": [
+            "THROWING KNIVES",
+            "HOT-BLOODED ENDURANCE",
+            "TRAINED RANGER",
+            "BLADE OF THE KRAKEN"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Zenestra’s Zealots",
+          "regimentAbilities": [
+            "FERVENT RUSH",
+            "FIERCE ZEALOTS"
+          ],
+          "enhancements": [
+            "DEVOUT COMMANDER",
+            "STAND FAST, COMRADES",
+            "STEP TO IT!",
+            "ARDENT DEMAND"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Daughters of Khaine",
+      "armies": [
+        {
+          "name": "Heartflayer Troupe",
+          "regimentAbilities": [
+            "MURDEROUS EPIPHANY",
+            "BLESSING OF KHAINE"
+          ],
+          "enhancements": [
+            "BATHED IN BLOOD",
+            "FLASK OF SHADEMIST",
+            "FUELLED BY REVENGE",
+            "ZEALOUS ORATOR"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Khainite Shadow Coven",
+          "regimentAbilities": [
+            "BLEED THEM PALE",
+            "MURDEROUS STRIKE"
+          ],
+          "enhancements": [
+            "SHADOW AVATAR",
+            "BOILING BLOOD",
+            "FRENZIED EXHORTATIONS",
+            "BLADED IMPACT"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Disciples of Tzeentch",
+      "armies": [
+        {
+          "name": "Tzaangor Warflock",
+          "regimentAbilities": [
+            "CONSTANT FLUX",
+            "ARCANE RITUALISTS"
+          ],
+          "enhancements": [
+            "PREDICTED STRIKE",
+            "INFERNAL GATEWAY",
+            "FOLD REALITY",
+            "MUTAGENIC SORCERY"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Fluxblade Coven",
+          "regimentAbilities": [
+            "TRANSIENT FORMS",
+            "ETERNAL CONFLAGRATION"
+          ],
+          "enhancements": [
+            "SHIELD OF FATE",
+            "GLIMPSE THE FUTURE",
+            "DAEMONHEART",
+            "TIMESLIP PENDANT"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Flesh-eater Courts",
+      "armies": [
+        {
+          "name": "Carrion Retainers",
+          "regimentAbilities": [
+            "CRUSADING ARMY",
+            "DEFENDERS OF THE REALM"
+          ],
+          "enhancements": [
+            "ULGUAN CLOAK",
+            "ROUSING ORATION",
+            "BLOOD-RIVER CHALICE",
+            "CRIMSON VICTUALS"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Charnel Watch",
+          "regimentAbilities": [
+            "DELUSION OF THE SENTINEL",
+            "DELUSION OF THE HUNTER"
+          ],
+          "enhancements": [
+            "ALMOST LUCID",
+            "A WORTHY CHALLENGE",
+            "COMPANION OF THE HUNT",
+            "CHOIRMASTER"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Fyreslayers",
+      "armies": [
+        {
+          "name": "Saga Axeband",
+          "regimentAbilities": [
+            "MAGMIC TUNNELS",
+            "FYRESTEEL THROWING AXES"
+          ],
+          "enhancements": [
+            "TOO STUBBORN TO DIE",
+            "HORN OF GRIMNIR",
+            "SPIRIT OF GRIMNIR",
+            "POWERFUL PRESENCE"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Gloomspite Gitz",
+      "armies": [
+        {
+          "name": "Snarlpack Huntaz",
+          "regimentAbilities": [
+            "FLANKIN' FORCE",
+            "FRAZZLEBOOM"
+          ],
+          "enhancements": [
+            "KUNNIN' AS A SNARLFANG",
+            "SUNSTEALA SHARD",
+            "GLARE OF FRAZZLEGIT",
+            "DEVIOUS BACKSTABBA"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Bad Moon Madmob",
+          "regimentAbilities": [
+            "THE LUNATIC HORDES",
+            "THE HAND OF GORK"
+          ],
+          "enhancements": [
+            "FIGHT ANOTHER DAY",
+            "HALLUCINOGENIC FUNGUS BREW",
+            "THE CLAMMY COWL",
+            "NIGHTSHADE MUSHROOM"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Hedonites of Slaanesh",
+      "armies": [
+        {
+          "name": "Blades of the Lurid Dream",
+          "regimentAbilities": [
+            "UNPARALLELED SPEED",
+            "LOCUS OF DIVERSION"
+          ],
+          "enhancements": [
+            "SCEPTRE OF DOMINATION",
+            "CACOPHONIC CHOIR",
+            "TWISTED MIRROR",
+            "PENDANT OF SLAANESH"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Helsmiths of Hashut",
+      "armies": [
+        {
+          "name": "Helforge Host",
+          "regimentAbilities": [
+            "GRINDING ADVANCE",
+            "SUPPRESSIVE BOMBARDMENT"
+          ],
+          "enhancements": [
+            "SCROLL OF PETRIFICATION",
+            "TALISMAN OF OBSIDIAN",
+            "CHALICE OF DARKNESS",
+            "AMULET OF BURNING HATE"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Idoneth Deepkin",
+      "armies": [
+        {
+          "name": "Akhelian Tide Guard",
+          "regimentAbilities": [
+            "THE SPEAR OF ASPHOREN",
+            "THE SHIELD OF ULCHISS"
+          ],
+          "enhancements": [
+            "DUTIFUL SOULS",
+            "VOLTAIC CHARGE",
+            "SHIMMERING AMULET",
+            "SOUL STEALER"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Soulraid Hunt",
+          "regimentAbilities": [
+            "WAY OF THE CRESTING WAVE",
+            "ETHERSEA PREDATORS"
+          ],
+          "enhancements": [
+            "ARCH-RITUALIST",
+            "MIND FLARE",
+            "STEELSHELL ARMOUR",
+            "DELICIOUS MORSELS"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Ironjawz",
+      "armies": [
+        {
+          "name": "Ironjawz Bigmob",
+          "regimentAbilities": [
+            "NATURAL DISASTER",
+            "A PROPER RUCKUS"
+          ],
+          "enhancements": [
+            "AMBERSTONE WHETSTONE",
+            "ARMOUR OF GORK",
+            "TROPHY SKULLS",
+            "MEGA BOSSY"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Kharadron Overlords",
+      "armies": [
+        {
+          "name": "Grundstok Trailblazers",
+          "regimentAbilities": [
+            "RAPID RELOCATION",
+            "PROPELLER DOWNDRAUGHT"
+          ],
+          "enhancements": [
+            "EMERGENCY FUEL INJECTION PODS",
+            "CELESTIUM-BURST BOMBLETS",
+            "PROSPECTOR AND PIONEER",
+            "EXTRACTION FAIL-SAFES"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Skyhammer Task Force",
+          "regimentAbilities": [
+            "ASSAULT BOAT",
+            "DISENGAGE"
+          ],
+          "enhancements": [
+            "MASTERWROUGHT ARMOUR",
+            "THERE'S NO REWARD WITHOUT RISK",
+            "FLASK OF VINTAGE GOROGNA",
+            "LEAVE NO DUARDIN BEHIND"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Kruleboyz",
+      "armies": [
+        {
+          "name": "Swampskulka Gang",
+          "regimentAbilities": [
+            "COVERED IN MUD",
+            "NOISY RACKET"
+          ],
+          "enhancements": [
+            "EGOMANIAK",
+            "KUNNIN' PLAN",
+            "MORK'S EYE PEBBLE",
+            "EYE-BITER ASH"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "armies": [
+        {
+          "name": "Hurakan Vanguard",
+          "regimentAbilities": [
+            "ROARING HEADWIND",
+            "LIFTED DRBRIS"
+          ],
+          "enhancements": [
+            "SCATTERED TO THE WINDS",
+            "TEMPLE GUARDIANS",
+            "WIND WHISPERER",
+            "CURVED SHOTS"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Glittering Phalanx",
+          "regimentAbilities": [
+            "ARCANE PROWESS",
+            "HEIGHTENED REFLEXES"
+          ],
+          "enhancements": [
+            "WAYSTONE",
+            "PROTECTION OF HYSH",
+            "SPEED OF HYSH",
+            "OVERWHELMING HEAT"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Maggotkin of Nurgle",
+      "armies": [
+        {
+          "name": "Bleak Host",
+          "regimentAbilities": [
+            "LOCUS OF FECUNDITY",
+            "INFESTED WITH WONDERS"
+          ],
+          "enhancements": [
+            "SUMMONER OF PLAGUEBEARERS",
+            "PESTILENT BREATH",
+            "GARDENER OF NURGLE",
+            "GIFT OF FEBRILE FRENZY"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Bubonic Cell",
+          "regimentAbilities": [
+            "CORRUPTION OF THE LAND",
+            "PUTREFIED GROUND"
+          ],
+          "enhancements": [
+            "UNNATURAL VITALITY",
+            "GASEOUS EMANATION",
+            "SUBCUTANEOUS SUPPURATION",
+            "OVERRIPE DEATH'S HEADS"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Nighthaunt",
+      "armies": [
+        {
+          "name": "Cursed Shacklehorde",
+          "regimentAbilities": [
+            "DISCORPORATE",
+            "MOUNTING DREAD"
+          ],
+          "enhancements": [
+            "UNHOLY VISAGE",
+            "DEATHLY POSSESSOR",
+            "TALES OF HORROR",
+            "SPECTRAL HOWL"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Slasher Host",
+          "regimentAbilities": [
+            "DEATH STALKERS",
+            "CHORUS OF TERROR"
+          ],
+          "enhancements": [
+            "SOULFIRE RING",
+            "BEACON OF NAGASHIZZAR",
+            "CLOAKED IN SHADOW",
+            "SHADOW'S EDGE"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Ogor Mawtribes",
+      "armies": [
+        {
+          "name": "Scrapglutt",
+          "regimentAbilities": [
+            "IT'S A HARD LIFE",
+            "FRENZIED ARTILLERY"
+          ],
+          "enhancements": [
+            "SAVAGE INSTINCTS",
+            "MASSIVE BULK",
+            "NASTY TRAP",
+            "VETERAN HUNTER"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Tyrant's Bellow",
+          "regimentAbilities": [
+            "PULVERISING GIRTH",
+            "BRED FOR TOUGHNESS"
+          ],
+          "enhancements": [
+            "LONGSTRIDER",
+            "BOOMING ROAR",
+            "FLASK OF STONEHORN BLOOD",
+            "BLUBBERGRUB"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "armies": [
+        {
+          "name": "Kavalos Vanguard",
+          "regimentAbilities": [
+            "FEIGNED RETREAT",
+            "REINFORCED CONSTRUCTS"
+          ],
+          "enhancements": [
+            "MIGHTY ARCHAEOSSIAN",
+            "IMPERIOUS COMMANDER",
+            "MURDEROUS BLADE",
+            "COLD SAVAGERY"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Tithe-reaper Echelon",
+          "regimentAbilities": [
+            "INPENETRABLE RANKS",
+            "RE-FORM RANKS"
+          ],
+          "enhancements": [
+            "EMPOWER NADIRITE WEAPONS",
+            "MURDEROUS DRIVE",
+            "UNSTOPPABLE COMMANDER",
+            "MARROWPACT"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Mortisan Elite",
+          "regimentAbilities": [
+            "PEERLESS COHESION",
+            "IMMACULATE GENERALSHIP"
+          ],
+          "enhancements": [
+            "SHARD STORM",
+            "LODE OF SATURATION",
+            "MEND CONSTRUCTS",
+            "HELM OF TYRANNY"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Seraphon",
+      "armies": [
+        {
+          "name": "Sunblooded Prowlers",
+          "regimentAbilities": [
+            "SCALED AEGIS",
+            "FOLLOWERS OF HUANCHI"
+          ],
+          "enhancements": [
+            "INSTINCTIVE COMMANDER",
+            "VENOMITE SWARM",
+            "SAVAGE MAULING",
+            "BLESSED BY THE OLD ONES"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Starscale Warhost",
+          "regimentAbilities": [
+            "PREDATORY FIGHTERS",
+            "TEMPLE-CITY GUARDIANS"
+          ],
+          "enhancements": [
+            "SOTEK'S GAZE",
+            "BLADE OF REALITIES",
+            "ANCIENT STRATEGIST",
+            "THE WRATH OF CHOTEC"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Skaven",
+      "armies": [
+        {
+          "name": "Gnawfeast Clawpack",
+          "regimentAbilities": [
+            "WARPSTONE-LACED BULLETS",
+            "TOO QUICK TO HIT-HIT"
+          ],
+          "enhancements": [
+            "LEAD THE SEETHING HORDE",
+            "WARPSTONE CHARM",
+            "SKRYRE CONNECTIONS",
+            "CLOAK OF STITCHED VICTORIES"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Crixxit's Kill-Pack",
+          "regimentAbilities": [
+            "WAY OF THE SKITTERING SHADE",
+            "WAY OF THE FIENDISH CLAW"
+          ],
+          "enhancements": [
+            "MURDEROUS ACROBATICS",
+            "JUST ANOTHER SHADOW",
+            "MASTER OF SHADOWS",
+            "DEATH SCREECH"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Warpspark Clawpack",
+          "regimentAbilities": [
+            "WARPSTONE-LACED ARMOUR",
+            "ENDLESS SWARM OF RATS"
+          ],
+          "enhancements": [
+            "SKILLED MANIPULATOR",
+            "CAGE OF WARP LIGHTNING",
+            "SKITTERLEAP",
+            "SCURRY AWAY"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Slaves to Darkness",
+      "armies": [
+        {
+          "name": "Darkoath Raiders",
+          "regimentAbilities": [
+            "RAGE OF ARKHAR",
+            "FEARLESS INVADERS"
+          ],
+          "enhancements": [
+            "BLOODTHIRSTY BLADE",
+            "CHAMPION OF RAIDS",
+            "GODSHADOW TALISMAN",
+            "FELL RITUALIST"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Bloodwind Legion",
+          "regimentAbilities": [
+            "FIERCE CONQUERORS",
+            "THE DREAD BANNER"
+          ],
+          "enhancements": [
+            "MARK OF KHORNE",
+            "MARK OF NURGLE",
+            "MARK OF TZEENTCH",
+            "MARK OF SLAANESH"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Sons of Behemat",
+      "armies": [
+        {
+          "name": "Stone Lobbas",
+          "regimentAbilities": [
+            "SURLY SORTS",
+            "GREEDY AND GRABBY"
+          ],
+          "enhancements": [
+            "’ARD ’EAD",
+            "HUMONGOUS STRIDES",
+            "LUCKY ROCK",
+            "HUNGRY GOBBLER"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Soulblight Gravelords",
+      "armies": [
+        {
+          "name": "Bloodcrave Hunt",
+          "regimentAbilities": [
+            "ENDLESS LEGIONS",
+            "RUINOUS CHARGERS"
+          ],
+          "enhancements": [
+            "GRAVE-SAND SHARD",
+            "AURA OF NIGHT",
+            "CLOUD OF BATS",
+            "SPIRIT GALE"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Deathrattle Tomb Host",
+          "regimentAbilities": [
+            "OVERWHELMING HORDES",
+            "DEATHMARCH"
+          ],
+          "enhancements": [
+            "SHYISHAN BLADE",
+            "PROPELLED BY HATE",
+            "STOLEN ANIMUS",
+            "SOUL-DRAIN PENDANT"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Stormcast Eternals",
+      "armies": [
+        {
+          "name": "Vigilant Brotherhood",
+          "regimentAbilities": [
+            "STRIKE WHERE NEEDED",
+            "BLAZE OF GLORY"
+          ],
+          "enhancements": [
+            "HALLOWED SCROLLS",
+            "QUICKSILVER DRAUGHT",
+            "MORRDA'S TALON",
+            "NULL PENDANT"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Yndrasta's Spearhead",
+          "regimentAbilities": [
+            "DEFEND TO THE LAST",
+            "DRIVE THEM BACK"
+          ],
+          "enhancements": [
+            "THE PRIME HUNTRESS",
+            "DAZZLING RADIANCE",
+            "STRIKE WITH THE TEMPEST'S RAGE",
+            "HAWK OF THE CELESTIAL SKIES"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "faction": "Sylvaneth",
+      "armies": [
+        {
+          "name": "Spitewing Flight",
+          "regimentAbilities": [
+            "LEAVES ON THE WIND",
+            "LIFEBRINGERS"
+          ],
+          "enhancements": [
+            "HEAD OF THE HUNT",
+            "BOLD SPIRIT",
+            "ZEPHYRKIN",
+            "CUNNING PURSUER"
+          ],
+          "confirmed": true
+        },
+        {
+          "name": "Bitterbark Copse",
+          "regimentAbilities": [
+            "VENGEFUL SPIRITS OF THE LAND",
+            "WALKERS OF THE HIDDEN PATHS"
+          ],
+          "enhancements": [
+            "REGROWTH",
+            "TREESONG",
+            "GNARLED WARRIOR",
+            "SEED OF REBIRTH"
+          ],
+          "confirmed": true
+        }
+      ]
+    }
+  ]
+}

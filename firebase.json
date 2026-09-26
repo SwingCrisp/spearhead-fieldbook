@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": ["**/.*"],
+    "headers": [
+      { "source": "**/*.@(html|js|css)", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
+    ]
+  },
+  "database": { "rules": "firebase-rules.json" }
+}
