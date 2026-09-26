@@ -758,8 +758,8 @@
               "ko": "내 턴 종료 시"
             },
             "condition": {
-              "en": "Models were slain in friendly territory and in enemy territory this turn; allegiance does not matter.",
-              "ko": "이번 턴에 아군 영토와 적 영토 양쪽에서 모델이 사망하면 달성합니다. 어느 편 모델이든 상관없습니다."
+              "ko": "아군 영토와 적 영토 양쪽에서 모델이 사망했다면 달성합니다.",
+              "en": "Models have been slain in both friendly and enemy territory."
             }
           },
           "command": {
@@ -838,8 +838,8 @@
               "ko": "아무 턴의 전투 페이즈"
             },
             "mechanics": {
-              "en": "Friendly unit in combat moves 3 inches; entering combat is allowed.",
-              "ko": "교전 중인 아군 유닛 1개가 최대 3인치 이동합니다. 이동을 마쳤을 때 교전 상태여도 됩니다."
+              "ko": "교전 중인 아군 유닛 1개를 고릅니다. 그 유닛은 3인치 이동할 수 있으며, 교전에 진입할 수 있습니다.",
+              "en": "Choose a friendly unit in combat. It may move 3 inches and may enter combat."
             }
           }
         },
@@ -904,8 +904,8 @@
               "ko": "내 턴의 영웅 페이즈"
             },
             "mechanics": {
-              "en": "Destroyed friendly unit, not previously replaced: replacement with combined Health at most 4, or one model with damage equal to Health minus 4. Set up over 6 inches from every enemy.",
-              "ko": "파괴되었고 아직 대체된 적 없는 아군 유닛 1개를 고릅니다. 체력(Health) 합계가 4 이하가 되도록 모델을 골라 대체 유닛으로 배치하거나, 모델 1개를 체력보다 4 적은 만큼 피해를 입은 상태로 배치합니다. 모든 적에게서 6인치보다 먼 곳에 배치해야 합니다."
+              "ko": "파괴되었고 아직 대체되지 않은 아군 유닛 1개를 고릅니다. 다음 중 하나로 대체 유닛을 배치합니다.\n· 모델들의 체력(Health) 특성 합계가 4 이하인 유닛.\n· 모델 1개로 구성된 유닛: 미리 받은 피해 = 그 모델의 체력(Health) − 4.\n모든 적 유닛에게서 6인치보다 먼 곳에 배치합니다.",
+              "en": "Choose a destroyed friendly unit that has not been replaced. Set up a replacement either with total model Health of 4 or less, or with one model carrying damage equal to its Health minus 4. Place it more than 6 inches from every enemy unit."
             }
           }
         },
