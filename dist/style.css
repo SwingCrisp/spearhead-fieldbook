@@ -92,7 +92,7 @@ details.panel>summary{margin:-4px 0}
 .card{border:1px solid var(--line);border-radius:8px;padding:14px;margin:10px 0;background:var(--panel2)}
 .card .kind{font:12px Oswald,sans-serif;color:var(--gold);letter-spacing:1px}
 .card h3{font-size:17px;margin:2px 0 6px}
-.card p{font-size:14px;margin:4px 0;color:#d6dde2}
+.card p{font-size:14px;margin:4px 0;color:#d6dde2;white-space:pre-line}
 .card .timing{color:var(--blue);font-size:13px}
 .card .half{border-top:1px dashed var(--line);padding-top:6px;margin-top:6px}
 .card .half h4{margin:0 0 4px}
