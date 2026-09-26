@@ -153,8 +153,8 @@
               "ko": "내 턴 종료 시"
             },
             "condition": {
-              "en": "You took an objective the opponent held, and those units did not use a melee (FIGHT) ability this turn.",
-              "ko": "상대방이 소유하고 있던 오브젝트를 빼앗았고, 그 유닛들이 이번 턴에 근접 능력을 사용하지 않았다면 달성합니다."
+              "ko": "상대방이 소유하던 오브젝트를 빼앗았고, 그 유닛들이 이번 턴에 근접 능력을 사용하지 않았다면 달성합니다.",
+              "en": "You took an objective held by the opponent, and those units did not use a melee ability this turn."
             }
           },
           "command": {
@@ -186,8 +186,8 @@
               "ko": "내 턴 종료 시"
             },
             "condition": {
-              "en": "You took an objective the opponent held, and those units did not use a melee (FIGHT) ability this turn.",
-              "ko": "상대방이 소유하고 있던 오브젝트를 빼앗았고, 그 유닛들이 이번 턴에 근접 능력을 사용하지 않았다면 달성합니다."
+              "ko": "상대방이 소유하던 오브젝트를 빼앗았고, 그 유닛들이 이번 턴에 근접 능력을 사용하지 않았다면 달성합니다.",
+              "en": "You took an objective held by the opponent, and those units did not use a melee ability this turn."
             }
           },
           "command": {
@@ -203,16 +203,7 @@
               "en": "Heal a friendly HERO by D6.",
               "ko": "아군 영웅 1개를 고릅니다. 주사위 1개(D6)를 굴려 나온 값만큼 그 영웅의 피해를 회복합니다."
             }
-          },
-          "officialCorrections": [
-            {
-              "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=17",
-              "note": {
-                "en": "FAQ clarifies control-score comparison.",
-                "ko": "FAQ: 지형의 점유 판정처럼 컨트롤 점수를 비교한다."
-              }
-            }
-          ]
+          }
         },
         {
           "id": "fire-tactic-06",
@@ -478,10 +469,14 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "This round, each player scores 1 VP each time they destroy an enemy unit. If there is an underdog, they pick one friendly unit: +1 to hit rolls this round.",
-            "ko": "이번 라운드 동안 적 유닛을 파괴할 때마다 각 플레이어는 승점 1점을 얻습니다. 언더독이 있다면, 전장의 아군 유닛 1개를 고릅니다. 그 유닛은 이번 라운드 동안 명중 굴림에 +1을 받습니다."
+            "ko": "이번 라운드 동안 각 플레이어는 적 유닛을 파괴할 때마다 승점 1점을 얻습니다. 언더독이 있다면 전장의 아군 유닛 1개를 고릅니다. 그 유닛은 이번 라운드 동안 명중 굴림에 +1을 받습니다.",
+            "en": "This round, each player scores 1 VP whenever they destroy an enemy unit. If there is an underdog, they choose one friendly unit on the battlefield; it gets +1 to hit rolls this round."
           },
-          "scoreTiming": "own_turn_end"
+          "scoreTiming": "own_turn_end",
+          "scoreTimingLabel": {
+            "ko": "이번 라운드에 적 유닛을 파괴할 때마다 득점",
+            "en": "Score whenever an enemy unit is destroyed this round"
+          }
         },
         {
           "id": "fire-aqshy-twist-03",
@@ -496,10 +491,14 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "The underdog picks one enemy unit and one friendly unit; with no underdog, each player picks one opposing unit. This round, destroying your designated unit scores 1 VP.",
+            "en": "The underdog chooses one enemy unit and one friendly unit on the battlefield. If there is no underdog, each player chooses one opposing unit. Destroying a designated unit this round scores 1 VP.",
             "ko": "언더독이 전장의 적 유닛 1개와 아군 유닛 1개를 고릅니다. 언더독이 없으면 각 플레이어가 상대방 유닛을 1개씩 고릅니다. 이번 라운드 동안 지정한 유닛을 파괴하면 승점 1점을 얻습니다."
           },
-          "scoreTiming": "round_end"
+          "scoreTiming": "round_end",
+          "scoreTimingLabel": {
+            "ko": "이번 라운드에 지정 유닛 파괴 시 득점",
+            "en": "Score when a designated unit is destroyed this round"
+          }
         },
         {
           "id": "fire-aqshy-twist-04",
@@ -553,7 +552,11 @@
             "en": "This round, each time you take an objective the opponent held during your turn, score 1 extra VP. The underdog picks one friendly unit: this round, when it uses a CHARGE ability, its weapons get +1 Damage.",
             "ko": "이번 라운드 동안, 자신의 턴에 상대방이 점거하고 있던 오브젝트를 빼앗을 때마다 승점 1점을 추가로 얻습니다. 언더독은 전장의 아군 유닛 1개를 골라 이번 라운드 동안 돌격 시 데미지 +1을 줍니다. (돌격 시 데미지 +1: 그 유닛이 돌격 능력을 사용하면 무기의 데미지 수치에 +1)"
           },
-          "scoreTiming": "own_turn_end"
+          "scoreTiming": "own_turn_end",
+          "scoreTimingLabel": {
+            "ko": "이번 라운드의 내 턴에 오브젝트를 빼앗을 때마다 득점",
+            "en": "Score for each objective taken during your turn this round"
+          }
         },
         {
           "id": "fire-aqshy-twist-06",
@@ -586,7 +589,7 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "The underdog may choose one: (1) one friendly unit gets WARD 6+ this round (if it already has a ward, +1 to ward rolls instead); or (2) heal 3 friendly units by D3 each.",
+            "en": "The underdog may choose one effect:\n1. Shield of Thorns: choose one friendly unit on the battlefield. It gains WARD 6+ this round, or +1 to ward rolls if it already has a ward.\n2. Healing Rain: choose 3 friendly units on the battlefield and heal each by D3.",
             "ko": "언더독이 다음 효과 중 하나를 골라 적용할 수 있습니다.\n1. 가시방패: 전장의 아군 유닛 1개에 이번 라운드 동안 와드(6+)를 줍니다. 이미 와드가 있다면 대신 와드 굴림에 +1을 줍니다.\n2. 치유의 비: 전장의 아군 유닛 3개를 골라 각각 D3만큼 회복합니다."
           },
           "scoreTiming": "none"
@@ -608,15 +611,10 @@
             "ko": "각 플레이어는 상대방 영역에 있는 대형 지형을 더 많은 모델로 점거하면 승점 1점을 추가로 얻습니다. 언더독은 대형 지형을 점거하고 있는 적 모델을 공격할 때 운드 굴림에 +1을 받습니다. (지형 점거: 지형에서 3\" 이내에 모델이 있어야 합니다.)"
           },
           "scoreTiming": "own_turn_end",
-          "officialCorrections": [
-            {
-              "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=17",
-              "note": {
-                "en": "Use terrain control scores rather than raw model counts.",
-                "ko": "단순 모델 수가 아닌 지형 점유용 컨트롤 점수로 비교."
-              }
-            }
-          ]
+          "scoreTimingLabel": {
+            "ko": "적 영역 대형 지형 점거 시 득점 · 세부 시점은 자료에 미기재",
+            "en": "Score for occupying large terrain in enemy territory; exact timing not specified in supplied material"
+          }
         },
         {
           "id": "fire-ghyran-twist-04",
@@ -649,7 +647,7 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "The underdog may choose one: (1) one enemy unit gets -1 to save rolls this round; or (2) one enemy unit cannot make ward rolls this round.",
+            "en": "The underdog may choose one effect:\n1. Nurgle’s Rot: choose one enemy unit on the battlefield; it gets -1 to save rolls this round.\n2. Eroding Rain: choose one enemy unit on the battlefield; it cannot make ward rolls this round.",
             "ko": "언더독이 다음 효과 중 하나를 골라 적용할 수 있습니다.\n1. 너글의 부패: 전장의 적 유닛 1개는 이번 라운드 동안 세이브 굴림에 -1을 받습니다.\n2. 침식의 비: 전장의 적 유닛 1개는 이번 라운드 동안 와드 굴림을 할 수 없습니다."
           },
           "scoreTiming": "none"
@@ -678,8 +676,8 @@
         {
           "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=17",
           "mechanics": {
-            "en": "HOLD GROUND and TAKE THE LAND use terrain control scores, not raw model count.",
-            "ko": "HOLD GROUND와 TAKE THE LAND는 단순 모델 수가 아닌 지형 컨트롤 점수로 판정."
+            "ko": "카드 설명은 제공받은 번역 자료 기준입니다. HOLD GROUND와 TAKE THE LAND의 공식 판정은 최신 공식 자료에서 별도로 확인하세요.",
+            "en": "Card descriptions follow the supplied translation. Consult the latest official materials separately for official HOLD GROUND and TAKE THE LAND rulings."
           }
         }
       ],
@@ -1188,15 +1186,10 @@
             "ko": "각 플레이어는 턴이 끝날 때, 파괴되거나 대체된 아군 유닛 하나당 승점 1점을 얻습니다. 추가로 언더독은 아군 유닛 1개를 고를 수 있습니다. 고른 유닛은 같은 턴에 후퇴나 달리기를 했더라도 돌격할 수 있습니다. (언더독이 없으면 롤오프 승자가 언더독이 됩니다.)"
           },
           "scoreTiming": "own_turn_end",
-          "officialCorrections": [
-            {
-              "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=18",
-              "note": {
-                "en": "Count original units only; no additional count for replacement units.",
-                "ko": "원래 유닛을 기준으로 세어 대체 유닛과 이중 계산하지 않음."
-              }
-            }
-          ]
+          "scoreTimingLabel": {
+            "ko": "턴 종료 시 각 플레이어 득점",
+            "en": "Each player scores at turn end"
+          }
         },
         {
           "id": "sand-dolorum-twist-03",
@@ -1214,7 +1207,11 @@
             "en": "This round, each time you take an objective the opponent held during your turn, score 1 VP. The underdog picks one friendly unit: its melee attacks get Anti-charge (+1 Rend) this round.",
             "ko": "이번 라운드 동안, 자신의 턴에 상대방이 점령하고 있던 오브젝트를 빼앗을 때마다 승점 1점을 얻습니다. 언더독은 아군 유닛 1개를 골라, 이번 라운드 동안 근접 공격에 대-돌격(관통 +1)을 줍니다."
           },
-          "scoreTiming": "own_turn_end"
+          "scoreTiming": "own_turn_end",
+          "scoreTimingLabel": {
+            "ko": "이번 라운드의 내 턴에 오브젝트를 빼앗을 때마다 득점",
+            "en": "Score for each objective taken during your turn this round"
+          }
         },
         {
           "id": "sand-dolorum-twist-04",
@@ -1268,9 +1265,7 @@
             "en": "The underdog picks one objective. This round, a notional unit of the choosing player is treated as contesting it, with an unmodifiable control score of 1. (If there is no underdog, the roll-off winner becomes the underdog.)",
             "ko": "언더독이 오브젝트 1개를 고릅니다. 이번 라운드 동안 그 오브젝트에는 고른 플레이어의 가상 유닛이 점령에 참여하고 있는 것으로 봅니다. 이 가상 유닛은 수정할 수 없는 점령 수치 1을 가집니다. (언더독이 없으면 롤오프 승자가 언더독이 됩니다.)"
           },
-          "scoreTiming": "none",
-          "automationAllowed": false,
-          "issueId": "sand-darkened-skies-missing-selector"
+          "scoreTiming": "none"
         },
         {
           "id": "sand-ossia-twist-01",
@@ -1303,12 +1298,10 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "The underdog may choose one: a friendly unit gets STRIKE-FIRST this round while wholly within friendly territory; or an enemy unit gets STRIKE-LAST this round while wholly within the underdog’s territory. (If there is no underdog, the roll-off winner becomes the underdog.)",
+            "en": "The underdog may choose one effect:\n• Precise Strike: choose one friendly unit on the battlefield. This round it has STRIKE-FIRST while wholly within friendly territory.\n• Internal Division: choose one enemy unit on the battlefield. This round it has STRIKE-LAST while wholly within friendly territory. If there is no underdog, the roll-off winner becomes the underdog.",
             "ko": "언더독이 다음 효과 중 하나를 고를 수 있습니다.\n· 정밀 타격: 전장의 아군 유닛 1개를 고릅니다. 이번 라운드 동안 그 유닛이 아군 진영에 완전히 있다면 스트라이크-퍼스트를 가집니다.\n· 내부 분열: 전장의 적 유닛 1개를 고릅니다. 이번 라운드 동안 그 유닛이 아군 진영에 완전히 있다면 스트라이크-라스트를 가집니다. (언더독이 없으면 롤오프 승자가 언더독이 됩니다.)"
           },
-          "scoreTiming": "none",
-          "automationAllowed": false,
-          "issueId": "sand-invincible-redoubts-territory"
+          "scoreTiming": "none"
         },
         {
           "id": "sand-ossia-twist-03",
@@ -1341,7 +1334,7 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "Underdog picks two terrain features; otherwise each picks a different one. Own turn end: +1 VP if both controlled. Underdog may choose a friendly unit: WARD 5+ while contesting either selected terrain this round.",
+            "en": "The underdog chooses two terrain features. If there is no underdog, each player chooses a different terrain feature. A player controlling both scores 1 VP at the end of their turn. In addition, the underdog chooses one friendly unit; it gains WARD 5+ this round while controlling the chosen terrain.",
             "ko": "언더독이 지형 2개를 고릅니다. 언더독이 없으면 각 플레이어가 서로 다른 지형을 1개씩 고릅니다. 고른 지형을 모두 점령한 플레이어는 자신의 턴이 끝날 때 승점 1점을 얻습니다. 추가로 언더독은 아군 유닛 1개를 골라, 이번 라운드 동안 그 유닛이 고른 지형을 점령하고 있으면 와드(5+)를 줍니다."
           },
           "scoreTiming": "own_turn_end"
@@ -1359,7 +1352,7 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "The underdog may choose one: a friendly unit ignores all modifiers to its save rolls this round; or an enemy unit’s control score is capped at 1 this round. (If there is no underdog, the roll-off winner becomes the underdog.)",
+            "en": "The underdog may choose one effect:\n• Flexible Defence: choose one friendly unit on the battlefield; ignore all modifiers to its save rolls this round.\n• Broken Will: choose one enemy unit on the battlefield; its control score is capped at 1 this round. If there is no underdog, the roll-off winner becomes the underdog.",
             "ko": "언더독이 다음 효과 중 하나를 고를 수 있습니다.\n· 유연한 방어: 전장의 아군 유닛 1개는 이번 라운드 동안 방호 굴림에 대한 모든 수정치를 무시합니다.\n· 부러진 의지: 전장의 적 유닛 1개는 이번 라운드 동안 최대 점령 수치가 1로 제한됩니다. (언더독이 없으면 롤오프 승자가 언더독이 됩니다.)"
           },
           "scoreTiming": "none"
@@ -1421,8 +1414,8 @@
         {
           "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=18",
           "mechanics": {
-            "en": "Ossia setup includes Crypt of Blood at board centre. Corrected SURVIVOR'S GRIEF and MONUMENT OF LIVING BONE are reflected above.",
-            "ko": "Ossia 배치 시 전장 중앙에 Crypt of Blood. SURVIVOR'S GRIEF와 MONUMENT OF LIVING BONE 수정사항은 위 데이터에 반영."
+            "ko": "트위스트 설명은 제공받은 번역 PDF 기준입니다. SURVIVOR’S GRIEF 및 배치·지형의 공식 판정은 최신 공식 자료에서 별도로 확인하세요.",
+            "en": "Twist descriptions follow the supplied translation PDF. Consult the latest official materials separately for SURVIVOR’S GRIEF and setup/terrain rulings."
           }
         }
       ],
@@ -1464,6 +1457,10 @@
           "twists": 12,
           "physicalTotalWithTwoTacticDecks": 36
         }
+      },
+      "sourcePlayNote": {
+        "ko": "제공 자료 공통 안내: * 표시 카드에 언더독이 없으면 롤오프 승자가 언더독이 됩니다. 같은 트위스트가 나오면 다시 굴립니다. 해당 언더독 문구는 각 카드 설명에도 반영했습니다.",
+        "en": "Shared note in the supplied material: for cards marked *, if there is no underdog, the roll-off winner becomes the underdog. Reroll if the same twist appears. The underdog wording is also included in the relevant card descriptions."
       }
     },
     {
@@ -2393,32 +2390,5 @@
       "noteKo": "1~6 결과"
     }
   ],
-  "issues": [
-    {
-      "id": "sand-darkened-skies-missing-selector",
-      "cardId": "sand-dolorum-twist-06",
-      "severity": "requires_card_confirmation",
-      "description": {
-        "ko": "확인 필요: 이 요약만으로는 해당 규칙이 명확하지 않습니다. 실물 카드 및 최신 공식 자료를 확인한 후 진행하세요.",
-        "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
-      },
-      "checkPoint": {
-        "ko": "보내주신 번역본 기준으로 정리했습니다. 실물 카드로 최종 확인하세요.",
-        "en": "Based on the translation provided. Confirm against the physical card."
-      }
-    },
-    {
-      "id": "sand-invincible-redoubts-territory",
-      "cardId": "sand-ossia-twist-02",
-      "severity": "requires_card_confirmation",
-      "description": {
-        "ko": "확인 필요: 이 요약만으로는 해당 규칙이 명확하지 않습니다. 실물 카드 및 최신 공식 자료를 확인한 후 진행하세요.",
-        "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
-      },
-      "checkPoint": {
-        "ko": "보내주신 번역본 기준으로 정리했습니다. 실물 카드로 최종 확인하세요.",
-        "en": "Based on the translation provided. Confirm against the physical card."
-      }
-    }
-  ]
+  "issues": []
 }

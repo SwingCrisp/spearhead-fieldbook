@@ -102,7 +102,7 @@ function cardView(c, o = {}) {
   let body;
   if (isT) body = `<section class="half tac"><h4>${t('card.tactic')} · ${esc(L(c.score.timing))} <span class="vp">${t('card.vp', { n: c.score.vp })}</span></h4><p>${esc(L(c.score.condition))}</p></section>
     <section class="half cmd"><h4>${t('card.command')} · ${nm(c.command.name)}</h4><p class="timing">${esc(L(c.command.timing))}</p><p>${esc(L(c.command.mechanics))}</p></section>`;
-  else if (c.kind === 'twist') body = `<p class="timing">${t('card.reveal')}: ${esc(L(c.revealTiming))} · <b>${t('tw.score.' + (c.scoreTiming === 'own_turn_end' ? 'own' : c.scoreTiming === 'round_end' ? 'round' : 'none'))}</b></p><p>${esc(L(c.mechanics))}</p>`;
+  else if (c.kind === 'twist') body = `<p class="timing">${t('card.reveal')}: ${esc(L(c.revealTiming))} · <b>${c.scoreTimingLabel ? esc(L(c.scoreTimingLabel)) : t('tw.score.' + (c.scoreTiming === 'own_turn_end' ? 'own' : c.scoreTiming === 'round_end' ? 'round' : 'none'))}</b></p><p>${esc(L(c.mechanics))}</p>`;
   else body = `<p class="timing">${esc(L(c.timing))}</p><p>${esc(L(c.mechanics))}</p>`;
   const corr = (c.officialCorrections || []).map(x => `<p class="errata">✓ ${t('card.errata')}: ${esc(L(x.note))} <a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">PDF ↗</a></p>`).join('');
   const cp = CHECK_POINTS[c.id];
@@ -730,9 +730,10 @@ function guidePage() {
   const P = E.pack(ui.catalog);
   return `<div class="titlebar"><h1>${t('guide.title')}</h1><p>${t('guide.desc')}</p></div>
   <div class="grid"><section class="panel gold"><h2>${t('guide.auto')}</h2><ul class="steps">${t('guide.auto.list').map(x => `<li>${esc(x)}</li>`).join('')}</ul></section>
-  <section class="panel"><h2>${t('guide.manual')}</h2><p>${t('guide.manual.text')}</p><h3>${t('guide.issues')}</h3>${Object.entries(CHECK_POINTS).map(([id, cp]) => `<p class="warnbox small"><b>${nm((E.cards[id] || refById(id)).name)}</b><br>${t('tw.manual')}<br>${t('card.checkPoint')}: ${esc(L(cp))}</p>`).join('')}</section></div>
+  <section class="panel"><h2>${t('guide.manual')}</h2><p>${t('guide.manual.text')}</p>${Object.keys(CHECK_POINTS).length ? `<h3>${t('guide.issues')}</h3>` : ''}${Object.entries(CHECK_POINTS).map(([id, cp]) => `<p class="warnbox small"><b>${nm((E.cards[id] || refById(id)).name)}</b><br>${t('tw.manual')}<br>${t('card.checkPoint')}: ${esc(L(cp))}</p>`).join('')}</section></div>
   <section class="panel"><h2>${t('guide.cards')}</h2><div class="seg wide" role="group">${DATA.packs.map(p => `<button data-act="ui:catalog" data-v="${p.id}" aria-pressed="${ui.catalog === p.id}">${esc(L(p.name))}</button>`).join('')}</div>
     <h3>${t('guide.tactics')}</h3><div class="card-grid">${P.tactics.map(c => cardView(c)).join('')}</div>
+    ${P.sourcePlayNote ? `<p class="hint">${esc(L(P.sourcePlayNote))}</p>` : ''}
     ${P.realms.map(r => `<h3>${t('guide.twists', { realm: L(r.name) })}</h3><div class="card-grid">${P.deckManifest.twistsByRealm[r.id].map(id => cardView(E.card(id))).join('')}</div>`).join('')}
     ${P.referenceAbilities.length ? `<h3>${t('guide.refs')}</h3><div class="card-grid">${P.referenceAbilities.map(c => cardView(c)).join('')}</div>` : ''}
     <h3>${t('guide.errata')}</h3>${P.errataNotes.map(e => `<p class="errata">${esc(L(e.mechanics))} <a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">PDF ↗</a></p>`).join('')}</section>
