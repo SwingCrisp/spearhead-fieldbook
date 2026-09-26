@@ -50,7 +50,8 @@ if (fs.existsSync(armiesSrc)) {
 }
 
 // The served app gets game data only; free-text notes stay in data/.
-const RESEARCH_KEYS = new Set(['note', 'description']);
+// (only issue descriptions; official-correction notes are game information and must stay)
+const RESEARCH_KEYS = new Set(['description']);
 const strip = v => (Array.isArray(v) ? v.map(strip) : v && typeof v === 'object'
   ? Object.fromEntries(Object.entries(v).filter(([k]) => !RESEARCH_KEYS.has(k)).map(([k, x]) => [k, strip(x)])) : v);
 const publicCards = strip(data), publicArmies = armies && strip(armies);

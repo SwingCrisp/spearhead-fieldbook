@@ -52,10 +52,27 @@ function safeStorage() {
 const $ = s => document.querySelector(s);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const lang = () => S.db.prefs.lang, mode = () => S.db.prefs.mode;
+// Korean particles after a name: "{name}이(가)" becomes 민수가 / 지훈이 depending on the final consonant.
+const JOSA = { '이(가)': ['이', '가'], '은(는)': ['은', '는'], '을(를)': ['을', '를'], '과(와)': ['과', '와'], '(으)로': ['으로', '로'] };
+function finalConsonant(word) {
+  const ch = String(word).trim().slice(-1), code = ch.charCodeAt(0);
+  if (code >= 0xac00 && code <= 0xd7a3) { const jong = (code - 0xac00) % 28; return jong === 0 ? 'none' : jong === 8 ? 'rieul' : 'other'; }
+  if (/[0-9]/.test(ch)) return '178'.includes(ch) ? 'rieul' : '036'.includes(ch) ? 'other' : 'none';
+  if (/[a-z]/i.test(ch)) return /l/i.test(ch) ? 'rieul' : /[mnr]/i.test(ch) ? 'other' : 'none';
+  return null; // unknown ending: keep the combined form
+}
+function withJosa(word, marker) {
+  if (marker === '이(가)' && String(word).trim() === '나') return '내가';
+  const f = finalConsonant(word), [withC, withoutC] = JOSA[marker];
+  if (f === null) return word + marker;
+  if (marker === '(으)로') return word + (f === 'other' ? withC : withoutC);
+  return word + (f === 'none' ? withoutC : withC);
+}
 function t(k, v = {}) {
   const e = window.I18N[k]; if (!e) return esc(k);
   const s = e[lang() === 'en' ? 1 : 0];
-  return typeof s === 'string' ? s.replace(/\{(\w+)\}/g, (_, x) => esc(v[x] ?? '')) : s;
+  if (typeof s !== 'string') return s;
+  return s.replace(/\{(\w+)\}(이\(가\)|은\(는\)|을\(를\)|과\(와\)|\(으\)로)?/g, (_, x, josa) => esc(josa ? withJosa(v[x] ?? '', josa) : v[x] ?? ''));
 }
 const L = o => (o ? o[lang()] ?? o.en ?? '' : '');
 const nm = o => (lang() === 'ko' && o.en !== o.ko ? `${esc(o.ko)} <small class="en" lang="en">${esc(o.en)}</small>` : esc(o.en));

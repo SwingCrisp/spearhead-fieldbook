@@ -33,7 +33,7 @@ window.I18N = {
   'f.army': ['스피어헤드 군대 이름', 'Spearhead army'], 'f.army.ph': ['예: Vigilant Brotherhood', 'e.g. Vigilant Brotherhood'],
   'f.faction.ph': ['선택하거나 직접 입력', 'Pick or type'],
   'playerA': ['플레이어 A (나)', 'Player A (me)'], 'playerB': ['플레이어 B (상대)', 'Player B (opponent)'],
-  'defaultA': ['나', 'Me'], 'defaultB': ['상대', 'Opponent'],
+  'defaultA': ['플레이어 A', 'Player A'], 'defaultB': ['플레이어 B', 'Player B'],
   'ash.scope': ['일반 1:1 City of Ash 전투입니다. Hidden in the Ashes 캠페인의 배치·승리 절차는 포함하지 않습니다.', 'Standard 1v1 City of Ash battle. The Hidden in the Ashes campaign setup and victory rules are not included.'],
   'start.guided': ['준비 시작 →', 'Start setup →'], 'start.quick': ['덱 섞고 전투 시작 →', 'Shuffle decks and start →'],
 
