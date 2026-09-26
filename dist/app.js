@@ -730,7 +730,7 @@ function guidePage() {
   const P = E.pack(ui.catalog);
   return `<div class="titlebar"><h1>${t('guide.title')}</h1><p>${t('guide.desc')}</p></div>
   <div class="grid"><section class="panel gold"><h2>${t('guide.auto')}</h2><ul class="steps">${t('guide.auto.list').map(x => `<li>${esc(x)}</li>`).join('')}</ul></section>
-  <section class="panel"><h2>${t('guide.manual')}</h2><p>${t('guide.manual.text')}</p><h3>${t('guide.issues')}</h3>${Object.entries(CHECK_POINTS).map(([id, cp]) => `<p class="warnbox small"><b>${nm(E.card(id).name)}</b><br>${t('tw.manual')}<br>${t('card.checkPoint')}: ${esc(L(cp))}</p>`).join('')}</section></div>
+  <section class="panel"><h2>${t('guide.manual')}</h2><p>${t('guide.manual.text')}</p><h3>${t('guide.issues')}</h3>${Object.entries(CHECK_POINTS).map(([id, cp]) => `<p class="warnbox small"><b>${nm((E.cards[id] || refById(id)).name)}</b><br>${t('tw.manual')}<br>${t('card.checkPoint')}: ${esc(L(cp))}</p>`).join('')}</section></div>
   <section class="panel"><h2>${t('guide.cards')}</h2><div class="seg wide" role="group">${DATA.packs.map(p => `<button data-act="ui:catalog" data-v="${p.id}" aria-pressed="${ui.catalog === p.id}">${esc(L(p.name))}</button>`).join('')}</div>
     <h3>${t('guide.tactics')}</h3><div class="card-grid">${P.tactics.map(c => cardView(c)).join('')}</div>
     ${P.realms.map(r => `<h3>${t('guide.twists', { realm: L(r.name) })}</h3><div class="card-grid">${P.deckManifest.twistsByRealm[r.id].map(id => cardView(E.card(id))).join('')}</div>`).join('')}

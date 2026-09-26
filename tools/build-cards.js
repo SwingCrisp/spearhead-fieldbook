@@ -29,7 +29,8 @@ for (const p of data.packs) {
     for (const id of list) { const t = p.twists.find(x => x.id === id); if (!t || t.realmId !== r.id) errors.push(`${p.id}/${r.id}: ${id} wrong realm`); }
   }
 }
-for (const i of data.issues || []) if (!ids.has(i.cardId)) errors.push(`issue ${i.id}: unknown card`);
+const refIds = new Set(data.packs.flatMap(p => p.referenceAbilities.map(r => r.id)));
+for (const i of data.issues || []) if (!ids.has(i.cardId) && !refIds.has(i.cardId)) errors.push(`issue ${i.id}: unknown card`);
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 
 // Optional: army option names (faction -> Spearhead army -> regiment abilities / enhancements).

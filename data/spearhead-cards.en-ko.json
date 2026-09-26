@@ -28,7 +28,7 @@
           "id": "aqshy",
           "name": {
             "en": "Aqshy",
-            "ko": "아크시"
+            "ko": "아쿠시"
           }
         },
         {
@@ -51,25 +51,25 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "This turn: at least one enemy unit destroyed, and enemy unit losses exceed friendly unit losses.",
-              "ko": "이번 턴 적 유닛이 1개 이상 파괴되었고, 파괴된 적 유닛 수가 아군보다 많음."
+              "ko": "이번 턴에 적 유닛을 1개 이상 파괴했고, 파괴된 적 유닛이 파괴된 아군 유닛보다 많으면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "STAND GUARD",
-              "ko": "경계를 유지하라"
+              "ko": "경계 태세"
             },
             "timing": {
               "en": "Enemy hero phase",
-              "ko": "상대 영웅 페이즈"
+              "ko": "상대 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "One friendly unit gains STRIKE-FIRST until turn end.",
-              "ko": "아군 유닛 1개에 턴 종료까지 STRIKE-FIRST 적용."
+              "ko": "아군 유닛 1개를 고릅니다. 이번 턴 동안 그 유닛은 STRIKE-FIRST가 됩니다."
             }
           }
         },
@@ -78,31 +78,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "RAID",
-            "ko": "급습"
+            "ko": "약탈"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "At least one friendly unit is wholly in enemy territory and outside combat.",
-              "ko": "적 영토에 완전히 들어가 있으며 교전 중이 아닌 아군 유닛이 있음."
+              "ko": "교전 중이 아니면서 적 영토 안에 완전히 들어가 있는 아군 유닛이 1개 이상 있으면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "STEEL DEFENCE",
-              "ko": "강철 방어"
+              "ko": "철통 방어"
             },
             "timing": {
               "en": "Reaction: enemy ATTACK declaration",
-              "ko": "반응: 상대가 ATTACK 선언"
+              "ko": "반응: 상대가 공격(ATTACK)을 선언했을 때"
             },
             "mechanics": {
               "en": "The targeted friendly unit ignores incoming Rend during this phase.",
-              "ko": "공격 대상인 아군 유닛은 이번 페이즈에 자신을 공격하는 Rend를 무시."
+              "ko": "공격 대상이 된 아군 유닛은 이번 페이즈 동안 받는 공격의 관통(Rend)을 무시합니다."
             }
           }
         },
@@ -111,17 +111,17 @@
           "kind": "battle_tactic",
           "name": {
             "en": "TAKE THE FLANKS",
-            "ko": "양 측면 확보"
+            "ko": "측면 포위"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Friendly units are within 3 inches of both short board edges.",
-              "ko": "양쪽 짧은 전장 가장자리 각각의 3인치 이내에 아군 유닛이 있음."
+              "ko": "양쪽 짧은 전장 가장자리 각각에서 3인치 이내에 아군 유닛이 있으면 달성합니다."
             }
           },
           "command": {
@@ -131,11 +131,11 @@
             },
             "timing": {
               "en": "Enemy movement phase",
-              "ko": "상대 이동 페이즈"
+              "ko": "상대 턴의 이동 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit outside combat moves up to D6 inches; no part of the move may enter combat. MOVE and RUN keywords.",
-              "ko": "교전 중이 아닌 아군 유닛이 최대 D6인치 이동. 이동 중 어느 지점에서도 교전에 진입 불가. MOVE·RUN 키워드."
+              "ko": "교전 중이 아닌 아군 유닛 1개가 최대 D6인치 이동합니다. 이동하면서 교전 상태가 될 수는 없습니다. (MOVE, RUN 키워드)"
             }
           }
         },
@@ -144,31 +144,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "TAKE WITHOUT WARNING",
-            "ko": "기습 점령"
+            "ko": "기습 공격"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Capture an objective held by the opponent at turn start; none of its contesting units used FIGHT this turn.",
-              "ko": "턴 시작에 상대가 점유하던 목표물을 획득. 그 목표물을 경합하는 어떤 유닛도 이번 턴 FIGHT를 사용하지 않음."
+              "ko": "턴 시작 때 상대가 점유하던 목표물을 빼앗으면 달성합니다. 단, 그 목표물을 경합하는 유닛 중 이번 턴에 FIGHT를 사용한 유닛이 없어야 합니다."
             }
           },
           "command": {
             "name": {
               "en": "FIGHT TO THE LAST",
-              "ko": "끝까지 싸워라"
+              "ko": "최후의 순간까지"
             },
             "timing": {
               "en": "Reaction: enemy ATTACK declaration",
-              "ko": "반응: 상대가 ATTACK 선언"
+              "ko": "반응: 상대가 공격(ATTACK)을 선언했을 때"
             },
             "mechanics": {
               "en": "The targeted friendly unit gains WARD 5+ for this phase.",
-              "ko": "공격 대상인 아군 유닛에 이번 페이즈 동안 WARD 5+ 적용."
+              "ko": "공격 대상이 된 아군 유닛은 이번 페이즈 동안 WARD 5+를 얻습니다."
             }
           }
         },
@@ -177,17 +177,17 @@
           "kind": "battle_tactic",
           "name": {
             "en": "HOLD GROUND",
-            "ko": "진지 사수"
+            "ko": "거점 사수"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the large terrain feature in friendly territory; compare control scores, per FAQ.",
-              "ko": "아군 영토의 대형 지형을 점유. FAQ에 따라 단순 모델 수가 아닌 컨트롤 점수로 비교."
+              "ko": "아군 영토에 있는 대형 지형을 점유하면 달성합니다. 점유는 모델 수가 아니라 컨트롤 점수로 비교합니다(공식 FAQ)."
             }
           },
           "command": {
@@ -197,11 +197,11 @@
             },
             "timing": {
               "en": "Any combat phase",
-              "ko": "양쪽 어느 전투 페이즈든"
+              "ko": "아무 턴의 전투 페이즈"
             },
             "mechanics": {
               "en": "Heal a friendly HERO by D6.",
-              "ko": "아군 HERO 1개를 D6만큼 치유."
+              "ko": "아군 영웅(HERO) 1개가 D6만큼 회복합니다."
             }
           },
           "officialCorrections": [
@@ -219,31 +219,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "CUT OFF THE HEAD",
-            "ko": "수장을 처단하라"
+            "ko": "참수 작전"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Enemy general slain this turn; alternatively, general died earlier and an enemy unit was destroyed this turn.",
-              "ko": "이번 턴 적 장군이 사망. 또는 이전 턴에 적 장군이 사망했고 이번 턴 적 유닛이 파괴됨."
+              "ko": "이번 턴에 적 장군을 처치하면 달성합니다. 적 장군이 이미 죽은 상태라면, 이번 턴에 적 유닛을 1개 이상 파괴해도 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "COUNTER-CHARGE",
-              "ko": "역돌격"
+              "ko": "맞돌격"
             },
             "timing": {
               "en": "Enemy charge phase",
-              "ko": "상대 돌격 페이즈"
+              "ko": "상대 턴의 돌격 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit outside combat: make a charge using your charge-phase procedure.",
-              "ko": "교전 중이 아닌 아군 유닛 1개: 자신의 돌격 페이즈처럼 돌격 능력 사용."
+              "ko": "교전 중이 아닌 아군 유닛 1개를 고릅니다. 그 유닛은 내 돌격 페이즈인 것처럼 돌격할 수 있습니다."
             }
           }
         },
@@ -252,31 +252,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "THE IGNAX DAIS",
-            "ko": "이그낙스의 제단"
+            "ko": "이그낙스 제단"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the Ignax objective.",
-              "ko": "이그낙스 목표물을 점유."
+              "ko": "이그낙스 목표물을 점유하면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "FORWARD TO VICTORY",
-              "ko": "승리를 향해 전진"
+              "ko": "승리를 향한 전진"
             },
             "timing": {
               "en": "Reaction: your CHARGE declaration",
-              "ko": "반응: 자신의 CHARGE 선언"
+              "ko": "반응: 내가 돌격(CHARGE)을 선언했을 때"
             },
             "mechanics": {
               "en": "The charging unit can reroll its charge roll.",
-              "ko": "돌격을 선언한 유닛의 돌격 주사위를 재굴림 가능."
+              "ko": "돌격하는 그 유닛은 돌격 굴림을 다시 굴릴 수 있습니다."
             }
           }
         },
@@ -285,31 +285,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "THE BEHEMAT DAIS",
-            "ko": "베헤마트의 제단"
+            "ko": "베헤멧 제단"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the Behemat objective.",
-              "ko": "베헤마트 목표물을 점유."
+              "ko": "베헤멧 목표물을 점유하면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "SCROLL OF ARCANE BOLT",
-              "ko": "비전 화살의 두루마리"
+              "ko": "비전 화살 주문서"
             },
             "timing": {
               "en": "Any hero phase",
-              "ko": "양쪽 어느 영웅 페이즈든"
+              "ko": "아무 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "Friendly HERO targets a visible enemy within 12 inches. D6 result 2+: deal D3 mortal damage.",
-              "ko": "아군 HERO가 12인치 이내의 보이는 적 유닛을 선택. D6에서 2+이면 D3 치명 피해."
+              "ko": "아군 영웅(HERO) 1개를 고르고, 그 영웅에게서 12인치 이내에 보이는 적 유닛 1개를 대상으로 정합니다. 주사위를 굴려 2+이면 그 적에게 치명 피해 D3을 줍니다."
             }
           }
         },
@@ -318,31 +318,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "THE DRACOTHION DAIS",
-            "ko": "드라코시온의 제단"
+            "ko": "드라코시온 제단"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the Dracothion objective.",
-              "ko": "드라코시온 목표물을 점유."
+              "ko": "드라코시온 목표물을 점유하면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "GO TO GROUND",
-              "ko": "몸을 낮춰라"
+              "ko": "엎드려!"
             },
             "timing": {
               "en": "Reaction: enemy SHOOT declaration",
-              "ko": "반응: 상대가 SHOOT 선언"
+              "ko": "반응: 상대가 사격(SHOOT)을 선언했을 때"
             },
             "mechanics": {
               "en": "Targeted friendly unit can only be hit on unmodified 6s for the phase; it has STRIKE-LAST for the turn.",
-              "ko": "대상 아군 유닛을 향한 공격은 이번 페이즈 동안 수정 전 명중 6만 성공. 그 유닛에 이번 턴 STRIKE-LAST 적용."
+              "ko": "사격 대상이 된 아군 유닛은 이번 페이즈 동안 수정 전 명중 굴림 6에만 맞습니다. 대신 이번 턴 동안 STRIKE-LAST가 됩니다."
             }
           }
         },
@@ -351,31 +351,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "RAZE",
-            "ko": "초토화"
+            "ko": "황폐화"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "A friendly unit is within 3 inches of the long board edge in enemy territory.",
-              "ko": "적 영토 쪽 긴 전장 가장자리의 3인치 이내에 아군 유닛이 있음."
+              "ko": "적 영토 쪽 긴 전장 가장자리에서 3인치 이내에 아군 유닛이 있으면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "INSPIRING PRESENCE",
-              "ko": "고무적인 존재"
+              "ko": "고무적인 존재감"
             },
             "timing": {
               "en": "Any hero phase",
-              "ko": "양쪽 어느 영웅 페이즈든"
+              "ko": "아무 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "Friendly HERO adds D6 to its control score until turn end.",
-              "ko": "아군 HERO 1개의 컨트롤 점수에 턴 종료까지 D6 추가."
+              "ko": "아군 영웅(HERO) 1개를 고르고 주사위를 굴립니다. 이번 턴 동안 그 영웅의 컨트롤 점수에 나온 값만큼 더합니다."
             }
           }
         },
@@ -384,31 +384,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "ATTACK ON TWO FRONTS",
-            "ko": "양면 공격"
+            "ko": "전면 공격"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control two objectives that belonged to the opponent at turn start.",
-              "ko": "턴 시작에 상대가 점유하던 목표물 2개를 현재 점유."
+              "ko": "턴 시작 때 상대가 점유하던 목표물 2개를 빼앗아 점유하면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "CALL REINFORCEMENTS",
-              "ko": "증원 요청"
+              "ko": "지원군 요청"
             },
             "timing": {
               "en": "Any movement phase",
-              "ko": "양쪽 어느 이동 페이즈든"
+              "ko": "아무 턴의 이동 페이즈"
             },
             "mechanics": {
               "en": "Destroyed, unreplaced friendly INFANTRY/CAVALRY unit originally of 5+ models: deploy D3 replacement models, over 6 inches from every enemy.",
-              "ko": "5모델 이상으로 구성되었던 파괴된 아군 INFANTRY/CAVALRY 중 아직 대체되지 않은 유닛을 선택. D3모델의 대체 유닛을 모든 적으로부터 6인치 초과 거리에 배치."
+              "ko": "파괴되었고 아직 대체되지 않은 아군 보병(INFANTRY) 또는 기병(CAVALRY) 유닛 중, 원래 모델이 5개 이상이던 유닛 1개를 고릅니다. D3을 굴려 나온 수만큼의 모델로 대체 유닛을 만들어, 모든 적에게서 6인치보다 먼 곳에 배치합니다."
             }
           }
         },
@@ -417,31 +417,31 @@
           "kind": "battle_tactic",
           "name": {
             "en": "DO NOT WAVER",
-            "ko": "흔들리지 마라"
+            "ko": "포기하지 마라"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "A friendly unit used FIGHT this turn and no friendly unit was destroyed this turn.",
-              "ko": "이번 턴 아군이 FIGHT를 사용했고, 이번 턴 파괴된 아군 유닛은 없음."
+              "ko": "이번 턴에 아군 유닛이 FIGHT를 사용했고, 이번 턴에 파괴된 아군 유닛이 없으면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "FALL BACK AND RALLY",
-              "ko": "물러나 재집결"
+              "ko": "퇴각 후 재집결"
             },
             "timing": {
               "en": "Reaction: your RETREAT declaration",
-              "ko": "반응: 자신의 RETREAT 선언"
+              "ko": "반응: 내가 후퇴(RETREAT)를 선언했을 때"
             },
             "mechanics": {
               "en": "Retreating unit takes no mortal damage from RETREAT; afterwards roll per slain model, returning one for each 5+.",
-              "ko": "RETREAT로 인한 치명 피해를 받지 않음. 해결 후 해당 유닛의 사망 모델마다 주사위 1개를 굴려 5+마다 모델 1개 복귀."
+              "ko": "후퇴하는 그 유닛은 후퇴로 인한 치명 피해를 받지 않습니다. 후퇴가 끝나면 사망한 모델마다 주사위를 굴려, 5+마다 모델 1개를 되살립니다."
             }
           }
         }
@@ -457,11 +457,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog selects an objective; if tied, roll-off winner selects. Clear its control and disable contest/control this round. After scoring each turn, each unit with models on it takes its own D3 mortal damage.",
-            "ko": "언더독이 목표물 선택. 언더독이 없으면 롤오프 승자가 선택. 해당 목표물 점유 해제, 이번 라운드 경합·점유 불가. 매 턴 득점 후 그 위에 모델이 있는 각 유닛은 개별 D3 치명 피해."
+            "ko": "언더독(없으면 롤오프 승자)이 목표물 1개를 고릅니다. 그 목표물은 아무의 점유도 아닌 상태가 되고, 이번 라운드 동안 누구도 경합하거나 점유할 수 없습니다. 매 턴 득점이 끝난 뒤, 그 목표물 위에 모델이 있는 유닛은 각각 치명 피해 D3을 받습니다."
           },
           "scoreTiming": "none"
         },
@@ -471,15 +471,15 @@
           "realmId": "aqshy",
           "name": {
             "en": "LET THE BLOOD FLOW",
-            "ko": "피를 흘려라"
+            "ko": "피가 흐르게 하라"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP per enemy unit destroyed that turn. Underdog selects a friendly unit; its melee hit rolls gain +1 for the round.",
-            "ko": "자기 턴 종료: 이번 턴 파괴된 적 유닛당 +1점. 언더독은 아군 유닛 1개를 선택해 이번 라운드 근접 명중 굴림 +1."
+            "ko": "내 턴 종료 시, 이번 턴에 파괴한 적 유닛 하나당 1점을 얻습니다. 언더독은 아군 유닛 1개를 골라, 이번 라운드 동안 근접 명중 굴림에 +1을 줍니다."
           },
           "scoreTiming": "own_turn_end"
         },
@@ -493,11 +493,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog marks one fielded unit in each army; otherwise each player marks an enemy, active player first. Round end: +1 VP if the enemy marked unit was destroyed this round.",
-            "ko": "언더독이 전장에 있는 양측 유닛을 1개씩 지정. 언더독이 없으면 현재 플레이어부터 각자 적 유닛 1개 지정. 라운드 종료: 지정된 적 유닛이 이번 라운드에 파괴되었으면 +1점."
+            "ko": "언더독이 양쪽 군대에서 전장에 있는 유닛을 1개씩 표시합니다. 언더독이 없으면 현재 턴 플레이어부터 각자 상대 유닛 1개를 표시합니다. 라운드 종료 시, 내가 노린 적 유닛이 이번 라운드에 파괴되었다면 1점을 얻습니다."
           },
           "scoreTiming": "round_end"
         },
@@ -507,15 +507,15 @@
           "realmId": "aqshy",
           "name": {
             "en": "RECLAIM AQSHY",
-            "ko": "아크시 탈환"
+            "ko": "아쿠시 재정복"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog chooses two objectives; otherwise each chooses one, active player first. Own turn end: +1 VP per chosen objective controlled.",
-            "ko": "언더독이 목표물 2개 선택. 언더독이 없으면 현재 플레이어부터 각자 1개 선택. 자기 턴 종료에 선택된 목표물을 점유한 개수만큼 +1점."
+            "ko": "언더독이 목표물 2개를 고릅니다. 언더독이 없으면 현재 턴 플레이어부터 각자 1개씩 고릅니다. 내 턴 종료 시, 고른 목표물 중 점유하고 있는 것 하나당 1점을 얻습니다."
           },
           "scoreTiming": "own_turn_end"
         },
@@ -525,15 +525,15 @@
           "realmId": "ghyran",
           "name": {
             "en": "RECLAIM GHYRAN",
-            "ko": "기란 탈환"
+            "ko": "기란 재정복"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog chooses two objectives; otherwise each chooses one, active player first. Own turn end: +1 VP per chosen objective controlled.",
-            "ko": "언더독이 목표물 2개 선택. 언더독이 없으면 현재 플레이어부터 각자 1개 선택. 자기 턴 종료에 선택된 목표물을 점유한 개수만큼 +1점."
+            "ko": "언더독이 목표물 2개를 고릅니다. 언더독이 없으면 현재 턴 플레이어부터 각자 1개씩 고릅니다. 내 턴 종료 시, 고른 목표물 중 점유하고 있는 것 하나당 1점을 얻습니다."
           },
           "scoreTiming": "own_turn_end"
         },
@@ -543,15 +543,15 @@
           "realmId": "aqshy",
           "name": {
             "en": "MOUNT THE ATTACK",
-            "ko": "공세를 펼쳐라"
+            "ko": "공격 개시"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP per controlled objective held by the opponent at turn start. Underdog selects one friendly unit; its melee weapons gain Charge (+1 Damage) this round.",
-            "ko": "자기 턴 종료: 턴 시작에 상대가 점유하던 목표물을 현재 점유한 개수만큼 +1점. 언더독은 아군 1개를 선택해 이번 라운드 근접 무기에 Charge (+1 Damage) 적용."
+            "ko": "내 턴 종료 시, 턴 시작 때 상대가 점유하던 목표물을 빼앗아 점유하고 있다면 그 목표물 하나당 1점을 얻습니다. 언더독은 아군 유닛 1개를 골라, 이번 라운드 동안 근접 무기에 Charge (+1 Damage)를 줍니다."
           },
           "scoreTiming": "own_turn_end"
         },
@@ -565,11 +565,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog selects an objective; otherwise roll off. Attacks against units contesting it hit only on unmodified 6s until round end.",
-            "ko": "언더독이 목표물 선택. 언더독이 없으면 롤오프로 결정. 이번 라운드 해당 목표물을 경합하는 유닛을 향한 공격은 수정 전 명중 6만 성공."
+            "ko": "언더독(없으면 롤오프 승자)이 목표물 1개를 고릅니다. 이번 라운드가 끝날 때까지, 그 목표물을 경합하는 유닛을 대상으로 한 공격은 수정 전 명중 굴림 6에만 맞습니다."
           },
           "scoreTiming": "none"
         },
@@ -583,11 +583,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog, or roll-off winner if tied, chooses: one friendly unit gets WARD 6+ for the round (existing ward: +1 to ward rolls instead); or heal up to three different friendly units D3 each.",
-            "ko": "언더독 또는 언더독이 없을 때 롤오프 승자가 선택: 아군 1개에 이번 라운드 WARD 6+(이미 워드가 있으면 대신 워드 굴림 +1), 또는 서로 다른 아군 최대 3개를 각각 D3 치유."
+            "ko": "언더독(없으면 롤오프 승자)이 다음 중 하나를 고릅니다.\n· 가시 방패: 아군 유닛 1개가 이번 라운드 동안 WARD 6+를 얻습니다. 이미 WARD가 있으면 대신 WARD 굴림에 +1을 받습니다.\n· 치유의 비: 서로 다른 아군 유닛을 최대 3개까지 골라 각각 D3만큼 회복합니다."
           },
           "scoreTiming": "none"
         },
@@ -597,15 +597,15 @@
           "realmId": "ghyran",
           "name": {
             "en": "TAKE THE LAND",
-            "ko": "땅을 차지하라"
+            "ko": "이 땅을 차지하라"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP for controlling the large terrain in enemy territory, using control scores (FAQ). Underdog attacks against units contesting a large terrain feature gain +1 to wound this round.",
-            "ko": "자기 턴 종료: 적 영토 대형 지형 점유 시 +1점. FAQ에 따라 컨트롤 점수로 비교. 언더독의 아군이 대형 지형을 경합하는 유닛을 공격하면 이번 라운드 상처 굴림 +1."
+            "ko": "내 턴 종료 시, 적 영토에 있는 대형 지형을 점유하고 있으면 1점을 얻습니다. 점유는 모델 수가 아니라 컨트롤 점수로 비교합니다(공식 FAQ). 언더독은 이번 라운드 동안, 대형 지형을 경합하는 유닛을 공격할 때 상처 굴림에 +1을 받습니다."
           },
           "scoreTiming": "own_turn_end",
           "officialCorrections": [
@@ -628,11 +628,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog, or roll-off winner if tied, selects an enemy. Until round end: halve its Move and remove one die from its charge rolls.",
-            "ko": "언더독 또는 동점 시 롤오프 승자가 적 유닛 선택. 라운드 종료까지 Move 절반, 돌격 주사위 개수 1개 감소."
+            "ko": "언더독(없으면 롤오프 승자)이 적 유닛 1개를 고릅니다. 이번 라운드가 끝날 때까지 그 유닛의 이동력(Move)이 절반이 되고, 돌격 굴림에서 주사위 1개를 뺍니다."
           },
           "scoreTiming": "none"
         },
@@ -646,11 +646,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog, or roll-off winner if tied, selects an enemy and one effect for the round: save rolls -1, or no ward rolls allowed.",
-            "ko": "언더독 또는 동점 시 롤오프 승자가 적 유닛과 효과 선택: 이번 라운드 세이브 굴림 −1, 또는 워드 굴림 불가."
+            "ko": "언더독(없으면 롤오프 승자)이 적 유닛 1개와 다음 효과 중 하나를 고릅니다. 이번 라운드 동안 적용됩니다.\n· 너글의 부패: 세이브 굴림 −1\n· 침식의 비: WARD 굴림을 할 수 없음"
           },
           "scoreTiming": "none"
         },
@@ -660,15 +660,15 @@
           "realmId": "ghyran",
           "name": {
             "en": "LIFESPRING",
-            "ko": "생명의 샘"
+            "ko": "생명의 요람"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog chooses an objective; otherwise roll off. Own turn end: +1 VP for controlling it. After scoring each turn, heal every unit contesting it by 1. Lasts this round.",
-            "ko": "언더독이 목표물 선택. 언더독이 없으면 롤오프. 자기 턴 종료에 점유 시 +1점. 매 턴 득점 후 해당 목표물을 경합하는 모든 유닛을 1 치유. 이번 라운드 동안 적용."
+            "ko": "언더독(없으면 롤오프 승자)이 목표물 1개를 고릅니다. 이번 라운드 동안, 내 턴 종료 시 그 목표물을 점유하고 있으면 1점을 얻습니다. 매 턴 득점이 끝난 뒤, 그 목표물을 경합하는 모든 유닛이 1씩 회복합니다."
           },
           "scoreTiming": "own_turn_end"
         }
@@ -741,7 +741,7 @@
           "id": "dolorum",
           "name": {
             "en": "Dolorum",
-            "ko": "돌로룸"
+            "ko": "돌로럼"
           }
         }
       ],
@@ -757,25 +757,25 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Models were slain in friendly territory and in enemy territory this turn; allegiance does not matter.",
-              "ko": "이번 턴 아군 영토와 적 영토 양쪽에서 모델이 사망. 사망 모델의 소속은 무관."
+              "ko": "이번 턴에 아군 영토와 적 영토 양쪽에서 모델이 사망하면 달성합니다. 어느 편 모델이든 상관없습니다."
             }
           },
           "command": {
             "name": {
               "en": "COUNTER-CHARGE",
-              "ko": "역돌격"
+              "ko": "맞돌격"
             },
             "timing": {
               "en": "Enemy charge phase",
-              "ko": "상대 돌격 페이즈"
+              "ko": "상대 턴의 돌격 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit outside combat: make a charge using your charge-phase procedure.",
-              "ko": "교전 중이 아닌 아군 유닛 1개: 자신의 돌격 페이즈처럼 돌격 능력 사용."
+              "ko": "교전 중이 아닌 아군 유닛 1개를 고릅니다. 그 유닛은 내 돌격 페이즈인 것처럼 돌격할 수 있습니다."
             }
           }
         },
@@ -790,11 +790,11 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "This turn: at least one enemy unit destroyed, and enemy unit losses exceed friendly unit losses.",
-              "ko": "이번 턴 적 유닛이 1개 이상 파괴되었고, 파괴된 적 유닛 수가 아군보다 많음."
+              "ko": "이번 턴에 적 유닛을 1개 이상 파괴했고, 파괴된 적 유닛이 파괴된 아군 유닛보다 많으면 달성합니다."
             }
           },
           "command": {
@@ -804,11 +804,11 @@
             },
             "timing": {
               "en": "End of either turn",
-              "ko": "양쪽 어느 턴 종료든"
+              "ko": "아무 턴의 종료 시"
             },
             "mechanics": {
               "en": "Remove one friendly unit currently in combat, then redeploy it over 6 inches from all enemies.",
-              "ko": "교전 중인 아군 유닛 1개를 제거한 뒤 모든 적으로부터 6인치 초과 거리에 재배치."
+              "ko": "교전 중인 아군 유닛 1개를 전장에서 들어낸 뒤, 모든 적 유닛에게서 6인치보다 먼 곳에 다시 배치합니다."
             }
           }
         },
@@ -817,17 +817,17 @@
           "kind": "battle_tactic",
           "name": {
             "en": "HOLD GROUND",
-            "ko": "진지 사수"
+            "ko": "거점 사수"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the large terrain feature in friendly territory.",
-              "ko": "아군 영토의 대형 지형을 점유."
+              "ko": "아군 영토에 있는 대형 지형을 점유하면 달성합니다."
             }
           },
           "command": {
@@ -837,11 +837,11 @@
             },
             "timing": {
               "en": "Any combat phase",
-              "ko": "양쪽 어느 전투 페이즈든"
+              "ko": "아무 턴의 전투 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit in combat moves 3 inches; entering combat is allowed.",
-              "ko": "교전 중인 아군 유닛이 3인치 이동. 교전 진입 가능."
+              "ko": "교전 중인 아군 유닛 1개가 최대 3인치 이동합니다. 이동을 마쳤을 때 교전 상태여도 됩니다."
             }
           }
         },
@@ -850,17 +850,17 @@
           "kind": "battle_tactic",
           "name": {
             "en": "RAZE",
-            "ko": "초토화"
+            "ko": "황폐화"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "A friendly unit is within 3 inches of the long board edge in enemy territory.",
-              "ko": "적 영토 쪽 긴 전장 가장자리의 3인치 이내에 아군 유닛이 있음."
+              "ko": "적 영토 쪽 긴 전장 가장자리에서 3인치 이내에 아군 유닛이 있으면 달성합니다."
             }
           },
           "command": {
@@ -870,11 +870,11 @@
             },
             "timing": {
               "en": "Any charge phase",
-              "ko": "양쪽 어느 돌격 페이즈든"
+              "ko": "아무 턴의 돌격 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit outside combat gains D3 to charge rolls for the rest of the turn.",
-              "ko": "교전 중이 아닌 아군 유닛에 턴 종료까지 돌격 굴림 +D3."
+              "ko": "교전 중이 아닌 아군 유닛 1개를 고릅니다. 이번 턴 동안 그 유닛의 돌격 굴림에 D3을 더합니다."
             }
           }
         },
@@ -889,11 +889,11 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control an objective not wholly in friendly territory, excluding Dais of Blood and Dais of the Necropolis.",
-              "ko": "아군 영토 안에 완전히 포함되지 않는 목표물을 점유. Dais of Blood와 Dais of the Necropolis는 제외."
+              "ko": "아군 영토 안에 완전히 들어가 있지 않은 목표물을 점유하면 달성합니다. 단, 피의 제단과 네크로폴리스의 제단은 제외합니다."
             }
           },
           "command": {
@@ -903,11 +903,11 @@
             },
             "timing": {
               "en": "Your hero phase",
-              "ko": "자신의 영웅 페이즈"
+              "ko": "내 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "Destroyed friendly unit, not previously replaced: replacement with combined Health at most 4, or one model with damage equal to Health minus 4. Set up over 6 inches from every enemy.",
-              "ko": "아직 대체되지 않은 파괴된 아군 유닛: Health 합계 4 이하인 대체 유닛, 또는 Health−4만큼 피해가 배정된 단일 모델 대체 유닛을 모든 적으로부터 6인치 초과 거리에 배치."
+              "ko": "파괴되었고 아직 대체된 적 없는 아군 유닛 1개를 고릅니다. 체력(Health) 합계가 4 이하가 되도록 모델을 골라 대체 유닛으로 배치하거나, 모델 1개를 체력보다 4 적은 만큼 피해를 입은 상태로 배치합니다. 모든 적에게서 6인치보다 먼 곳에 배치해야 합니다."
             }
           }
         },
@@ -916,17 +916,17 @@
           "kind": "battle_tactic",
           "name": {
             "en": "ATTACK ON TWO FRONTS",
-            "ko": "양면 공격"
+            "ko": "전면 공격"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control two objectives that belonged to the opponent at turn start.",
-              "ko": "턴 시작에 상대가 점유하던 목표물 2개를 현재 점유."
+              "ko": "턴 시작 때 상대가 점유하던 목표물 2개를 빼앗아 점유하면 달성합니다."
             }
           },
           "command": {
@@ -936,11 +936,11 @@
             },
             "timing": {
               "en": "Reaction: enemy ATTACK declaration",
-              "ko": "반응: 상대가 ATTACK 선언"
+              "ko": "반응: 상대가 공격(ATTACK)을 선언했을 때"
             },
             "mechanics": {
               "en": "For attacks against the targeted unit this phase, unmodified hit OR wound results 1–3 fail and end that attack sequence.",
-              "ko": "이번 페이즈 대상 유닛을 향한 공격의 수정 전 명중 또는 상처 굴림이 1~3이면 실패하고 해당 공격 순서 종료."
+              "ko": "공격 대상이 된 아군 유닛을 노린 이번 페이즈의 공격은, 수정 전 명중 굴림이나 상처 굴림이 1~3이면 실패하고 그 공격 절차가 끝납니다."
             }
           }
         },
@@ -955,11 +955,11 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "A friendly unit used FIGHT this turn, remains on the battlefield, and is not contesting an objective.",
-              "ko": "이번 턴 FIGHT를 사용한 아군 유닛이 전장에 남아 있으며 목표물을 경합하지 않음."
+              "ko": "이번 턴에 FIGHT를 사용한 아군 유닛이 전장에 남아 있고, 어떤 목표물도 경합하고 있지 않으면 달성합니다."
             }
           },
           "command": {
@@ -969,11 +969,11 @@
             },
             "timing": {
               "en": "Your hero phase",
-              "ko": "자신의 영웅 페이즈"
+              "ko": "내 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "Friendly HERO contesting an objective: roll separately for each enemy contesting it; on 4+, that enemy takes 2 mortal damage.",
-              "ko": "목표물을 경합하는 아군 HERO 선택. 같은 목표물을 경합하는 적마다 주사위 1개. 4+인 적에게 치명 피해 2."
+              "ko": "목표물을 경합 중인 아군 영웅(HERO) 1개를 고릅니다. 같은 목표물을 경합하는 적 유닛마다 주사위를 1개씩 굴려, 4+가 나온 유닛에 치명 피해 2를 줍니다."
             }
           }
         },
@@ -982,17 +982,17 @@
           "kind": "battle_tactic",
           "name": {
             "en": "TAKE WITHOUT WARNING",
-            "ko": "기습 점령"
+            "ko": "기습 공격"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Capture an objective held by the opponent at turn start; none of its contesting units used FIGHT this turn.",
-              "ko": "턴 시작에 상대가 점유하던 목표물을 획득. 그 목표물을 경합하는 어떤 유닛도 이번 턴 FIGHT를 사용하지 않음."
+              "ko": "턴 시작 때 상대가 점유하던 목표물을 빼앗으면 달성합니다. 단, 그 목표물을 경합하는 유닛 중 이번 턴에 FIGHT를 사용한 유닛이 없어야 합니다."
             }
           },
           "command": {
@@ -1002,11 +1002,11 @@
             },
             "timing": {
               "en": "Any hero phase",
-              "ko": "양쪽 어느 영웅 페이즈든"
+              "ko": "아무 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "A terrain feature in friendly territory additionally counts as an objective until turn end.",
-              "ko": "아군 영토의 지형 1개를 턴 종료까지 목표물로도 취급."
+              "ko": "아군 영토에 있는 지형 1개를 고릅니다. 이번 턴이 끝날 때까지 그 지형은 지형이면서 목표물로도 취급합니다(공식 정오표)."
             }
           },
           "officialCorrections": [
@@ -1030,11 +1030,11 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the Dais of the Necropolis.",
-              "ko": "네크로폴리스의 제단 목표물을 점유."
+              "ko": "네크로폴리스의 제단 목표물을 점유하면 달성합니다."
             }
           },
           "command": {
@@ -1044,11 +1044,11 @@
             },
             "timing": {
               "en": "Any combat phase",
-              "ko": "양쪽 어느 전투 페이즈든"
+              "ko": "아무 턴의 전투 페이즈"
             },
             "mechanics": {
               "en": "One friendly unit may FIGHT twice this phase. After its first FIGHT, it suffers D3 mortal damage and gains STRIKE-LAST until turn end.",
-              "ko": "아군 유닛 1개가 이번 페이즈에 FIGHT 2회 가능. 첫 FIGHT 후 자신이 D3 치명 피해를 받고 턴 종료까지 STRIKE-LAST 적용."
+              "ko": "아군 유닛 1개가 이번 페이즈에 FIGHT를 두 번 할 수 있습니다. 첫 번째 FIGHT 뒤 그 유닛은 치명 피해 D3을 받고, 이번 턴 동안 STRIKE-LAST가 됩니다."
             }
           }
         },
@@ -1063,11 +1063,11 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control two objectives not wholly in friendly territory.",
-              "ko": "아군 영토 안에 완전히 포함되지 않는 목표물 2개를 점유."
+              "ko": "아군 영토 안에 완전히 들어가 있지 않은 목표물 2개를 점유하면 달성합니다."
             }
           },
           "command": {
@@ -1077,11 +1077,11 @@
             },
             "timing": {
               "en": "Enemy movement phase",
-              "ko": "상대 이동 페이즈"
+              "ko": "상대 턴의 이동 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit: if in combat, RETREAT as in own movement phase. Otherwise, if damaged, roll per damage point and heal 1 per 5+; if undamaged, roll per slain model and return one per 5+.",
-              "ko": "아군 유닛 선택. 교전 중이면 자신의 이동 페이즈처럼 RETREAT. 비교전이면: 피해가 있을 때 피해점마다 주사위를 굴려 5+마다 1 치유, 피해가 없을 때 사망 모델마다 굴려 5+마다 모델 1개 복귀."
+              "ko": "아군 유닛 1개를 고릅니다.\n· 교전 중이면: 내 이동 페이즈인 것처럼 후퇴(RETREAT)합니다.\n· 교전 중이 아니고 피해가 있으면: 피해 1점마다 주사위를 굴려 5+마다 1점을 회복합니다.\n· 교전 중이 아니고 피해가 없으면: 사망한 모델마다 주사위를 굴려 5+마다 모델 1개를 되살립니다."
             }
           }
         },
@@ -1090,17 +1090,17 @@
           "kind": "battle_tactic",
           "name": {
             "en": "RAID",
-            "ko": "급습"
+            "ko": "약탈"
           },
           "score": {
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "At least one friendly unit is wholly in enemy territory and outside combat.",
-              "ko": "적 영토에 완전히 들어가 있으며 교전 중이 아닌 아군 유닛이 있음."
+              "ko": "교전 중이 아니면서 적 영토 안에 완전히 들어가 있는 아군 유닛이 1개 이상 있으면 달성합니다."
             }
           },
           "command": {
@@ -1110,11 +1110,11 @@
             },
             "timing": {
               "en": "Any charge phase",
-              "ko": "양쪽 어느 돌격 페이즈든"
+              "ko": "아무 턴의 돌격 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit in combat selects an enemy in combat with it. Reduce that enemy control score by D6 until turn end.",
-              "ko": "교전 중인 아군이 자신과 교전 중인 적 1개 선택. 턴 종료까지 적 컨트롤 점수 −D6."
+              "ko": "교전 중인 아군 유닛 1개와, 그 유닛과 교전 중인 적 유닛 1개를 고릅니다. 이번 턴 동안 그 적 유닛의 컨트롤 점수가 D6만큼 줄어듭니다."
             }
           }
         },
@@ -1129,25 +1129,25 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the Dais of Blood.",
-              "ko": "피의 제단 목표물을 점유."
+              "ko": "피의 제단 목표물을 점유하면 달성합니다."
             }
           },
           "command": {
             "name": {
               "en": "UNLEASH BLOODLUST",
-              "ko": "살육의 갈증을 풀어라"
+              "ko": "살육의 갈증"
             },
             "timing": {
               "en": "Enemy combat phase",
-              "ko": "상대 전투 페이즈"
+              "ko": "상대 턴의 전투 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit melee Attacks +1 until turn end, but its control score is capped at 1 until round end.",
-              "ko": "아군 유닛의 근접 Attacks +1은 턴 종료까지. 컨트롤 점수 최대 1 제한은 라운드 종료까지."
+              "ko": "아군 유닛 1개를 고릅니다. 이번 턴 동안 근접 무기의 공격 횟수(Attacks)가 +1 됩니다. 대신 이번 라운드가 끝날 때까지 그 유닛의 컨트롤 점수는 최대 1입니다."
             }
           }
         }
@@ -1159,15 +1159,15 @@
           "realmId": "dolorum",
           "name": {
             "en": "SAVAGE MOURNING",
-            "ko": "격렬한 애도"
+            "ko": "잔혹한 애도"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP per friendly unit in combat with an enemy. Underdog also earns +1 if destroyed friendly units outnumber destroyed enemy units at their turn end.",
-            "ko": "자기 턴 종료: 적과 교전 중인 아군 유닛당 +1점. 언더독은 자기 턴 종료 시 파괴된 아군 유닛 수가 적보다 많으면 추가 +1점."
+            "ko": "내 턴 종료 시, 적과 교전 중인 아군 유닛 하나당 1점을 얻습니다. 언더독은 추가로, 내 턴 종료 시 파괴된 아군 유닛이 파괴된 적 유닛보다 많으면 1점을 더 얻습니다."
           },
           "scoreTiming": "own_turn_end"
         },
@@ -1177,15 +1177,15 @@
           "realmId": "dolorum",
           "name": {
             "en": "SURVIVOR'S GRIEF",
-            "ko": "생존자의 슬픔"
+            "ko": "생존자의 비탄"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP per original Spearhead unit destroyed or replaced during the battle; do not count replacement units separately. Underdog, or roll-off winner if tied, may grant one friendly unit run/retreat-and-charge this round.",
-            "ko": "자기 턴 종료: 전투 중 파괴되거나 대체된 원래 스피어헤드 유닛당 +1점. 대체 유닛은 별도 가산하지 않음. 언더독 또는 언더독이 없을 때 롤오프 승자는 아군 1개가 이번 라운드 RUN/RETREAT 후에도 CHARGE하도록 지정 가능."
+            "ko": "내 턴 종료 시, 이번 전투에서 파괴되었거나 대체된 원래 스피어헤드 아군 유닛 하나당 1점을 얻습니다. 대체된 유닛은 따로 세지 않습니다(공식 정오표). 언더독(없으면 롤오프 승자)은 아군 유닛 1개를 골라, 이번 라운드 동안 달리기(RUN)나 후퇴(RETREAT)를 한 턴에도 돌격할 수 있게 합니다."
           },
           "scoreTiming": "own_turn_end",
           "officialCorrections": [
@@ -1204,15 +1204,15 @@
           "realmId": "dolorum",
           "name": {
             "en": "BANISH YOUR FEARS",
-            "ko": "두려움을 떨쳐라"
+            "ko": "공포를 몰아내라"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP per controlled objective held by the opponent at turn start. Underdog may give one friendly unit melee Anti-charge (+1 Rend) for the round.",
-            "ko": "자기 턴 종료: 턴 시작에 상대가 점유하던 목표물을 현재 점유한 개수만큼 +1점. 언더독은 아군 1개의 근접 무기에 이번 라운드 Anti-charge (+1 Rend) 부여 가능."
+            "ko": "내 턴 종료 시, 턴 시작 때 상대가 점유하던 목표물을 빼앗아 점유하고 있다면 그 목표물 하나당 1점을 얻습니다. 언더독은 아군 유닛 1개를 골라, 이번 라운드 동안 근접 무기에 Anti-charge (+1 Rend)를 줄 수 있습니다."
           },
           "scoreTiming": "own_turn_end"
         },
@@ -1226,11 +1226,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog selects an objective; otherwise roll off. Clear its control; neither player may control it this round.",
-            "ko": "언더독이 목표물 선택. 없으면 롤오프. 점유 해제 후 이번 라운드 양측 모두 그 목표물 점유 불가."
+            "ko": "언더독(없으면 롤오프 승자)이 목표물 1개를 고릅니다. 그 목표물은 아무의 점유도 아닌 상태가 되고, 이번 라운드 동안 누구도 점유할 수 없습니다."
           },
           "scoreTiming": "none"
         },
@@ -1240,15 +1240,15 @@
           "realmId": "dolorum",
           "name": {
             "en": "HAUNTED LOCUS",
-            "ko": "유령 깃든 장소"
+            "ko": "저주받은 터"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog places the Icon of Nulahmia; otherwise roll off. Place over 3 inches from every other terrain and all units, without touching an objective.",
-            "ko": "언더독이 Icon of Nulahmia를 배치. 없으면 롤오프. 다른 모든 지형과 양측 모든 유닛으로부터 3인치 초과 거리, 목표물에 닿지 않게 배치."
+            "ko": "언더독(없으면 롤오프 승자)이 눌라미아의 성상(Icon of Nulahmia)을 배치합니다. 다른 모든 지형과 모든 유닛에게서 3인치보다 먼 곳에, 목표물에 닿지 않게 놓습니다."
           },
           "scoreTiming": "none"
         },
@@ -1262,11 +1262,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "The underdog (or, if there is no underdog, the roll-off winner) chooses 1 objective. Until the end of the round, a notional unit belonging to the choosing player, with an unmodifiable control score of 1, is treated as contesting it.",
-            "ko": "언더독(언더독이 없으면 롤오프 승자)이 목표물 1개를 선택. 라운드 종료까지 그 목표물에는 선택한 플레이어의 가상 유닛(수정 불가 컨트롤 점수 1)이 경합하는 것으로 취급."
+            "ko": "언더독(없으면 롤오프 승자)이 목표물 1개를 고릅니다. 이번 라운드가 끝날 때까지 그 목표물에는 고른 플레이어의 가상 유닛 1개가 경합 중인 것으로 봅니다. 이 가상 유닛의 컨트롤 점수는 1이며 바뀌지 않습니다."
           },
           "scoreTiming": "none",
           "automationAllowed": false,
@@ -1278,15 +1278,15 @@
           "realmId": "ossia",
           "name": {
             "en": "DISCIPLINED CONQUEST",
-            "ko": "질서정연한 정복"
+            "ko": "체계적인 정복"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog chooses two objectives; otherwise each player chooses one, active player first. Own turn end: +2 VP if both are controlled.",
-            "ko": "언더독이 목표물 2개 선택. 없으면 현재 플레이어부터 각자 1개 선택. 자기 턴 종료에 둘 다 점유하면 +2점."
+            "ko": "언더독이 목표물 2개를 고릅니다. 언더독이 없으면 현재 턴 플레이어부터 각자 1개씩 고릅니다. 내 턴 종료 시, 고른 목표물 2개를 모두 점유하고 있으면 2점을 얻습니다."
           },
           "scoreTiming": "own_turn_end"
         },
@@ -1296,15 +1296,15 @@
           "realmId": "ossia",
           "name": {
             "en": "INVINCIBLE REDOUBTS",
-            "ko": "난공불락의 보루"
+            "ko": "철벽의 요새"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "The underdog (or, if there is no underdog, the roll-off winner) chooses one: a friendly unit gets STRIKE-FIRST while wholly within friendly territory; or an enemy unit gets STRIKE-LAST while wholly within the choosing player’s territory. Lasts this round.",
-            "ko": "언더독(언더독이 없으면 롤오프 승자)이 하나를 선택: 아군 유닛 1개가 아군 영토에 완전히 있으면 STRIKE-FIRST, 또는 적 유닛 1개가 선택한 플레이어의 영토에 완전히 있으면 STRIKE-LAST. 이번 라운드 적용."
+            "ko": "언더독(없으면 롤오프 승자)이 다음 중 하나를 고릅니다. 이번 라운드 동안 적용됩니다.\n· 정밀 타격: 아군 유닛 1개. 아군 영토 안에 완전히 있는 동안 STRIKE-FIRST가 됩니다.\n· 내부 분열: 적 유닛 1개. 고른 플레이어의 영토 안에 완전히 있는 동안 STRIKE-LAST가 됩니다."
           },
           "scoreTiming": "none",
           "automationAllowed": false,
@@ -1316,15 +1316,15 @@
           "realmId": "ossia",
           "name": {
             "en": "CO-ORDINATED BOMBARDMENT",
-            "ko": "협동 포격"
+            "ko": "조율된 집중포화"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog, or roll-off winner if tied, may select an objective. Enemy units contesting it have hit rolls -1 until round end.",
-            "ko": "언더독 또는 동점 시 롤오프 승자가 목표물 선택 가능. 해당 목표물을 경합하는 적 유닛은 라운드 종료까지 명중 굴림 −1."
+            "ko": "언더독(없으면 롤오프 승자)이 목표물 1개를 고를 수 있습니다. 이번 라운드 동안 그 목표물을 경합하는 적 유닛은 명중 굴림에 −1을 받습니다."
           },
           "scoreTiming": "none"
         },
@@ -1334,15 +1334,15 @@
           "realmId": "ossia",
           "name": {
             "en": "SECURED SUPPLY LINES",
-            "ko": "보급로 확보"
+            "ko": "확보된 보급로"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog picks two terrain features; otherwise each picks a different one. Own turn end: +1 VP if both controlled. Underdog may choose a friendly unit: WARD 5+ while contesting either selected terrain this round.",
-            "ko": "언더독이 지형 2개 선택. 없으면 각자 서로 다른 지형 1개 선택. 자기 턴 종료에 둘 다 점유하면 +1점. 언더독이 고른 아군 1개는 이번 라운드 두 지형 중 하나를 경합하는 동안 WARD 5+."
+            "ko": "언더독이 지형 2개를 고릅니다. 언더독이 없으면 각자 서로 다른 지형을 1개씩 고릅니다. 내 턴 종료 시, 고른 지형 2개를 모두 점유하고 있으면 1점을 얻습니다. 언더독은 추가로 아군 유닛 1개를 골라, 이번 라운드 동안 그 유닛이 고른 지형을 경합하는 동안 WARD 5+를 줄 수 있습니다."
           },
           "scoreTiming": "own_turn_end"
         },
@@ -1356,11 +1356,11 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog, or roll-off winner if tied, chooses for this round: friendly unit ignores all positive and negative save modifiers; or enemy control score capped at 1.",
-            "ko": "언더독 또는 동점 시 롤오프 승자가 이번 라운드 효과 선택: 아군 1개의 세이브 굴림에 대한 모든 양수·음수 수정 무시, 또는 적 1개 컨트롤 점수 최대 1."
+            "ko": "언더독(없으면 롤오프 승자)이 다음 중 하나를 고릅니다. 이번 라운드 동안 적용됩니다.\n· 유연한 방어: 아군 유닛 1개의 세이브 굴림에 붙는 모든 수정치(+/−)를 무시합니다.\n· 부러진 의지: 적 유닛 1개의 컨트롤 점수가 최대 1이 됩니다."
           },
           "scoreTiming": "none"
         },
@@ -1370,15 +1370,15 @@
           "realmId": "ossia",
           "name": {
             "en": "UNCOMPROMISING INVASION",
-            "ko": "가차 없는 침공"
+            "ko": "거침없는 침공"
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP per controlled objective not wholly in friendly territory and contested by no enemies. Underdog may add D6 to one friendly unit control score for the round.",
-            "ko": "자기 턴 종료: 아군 영토에 완전히 포함되지 않으며 적이 경합하지 않는 점유 목표물당 +1점. 언더독은 아군 1개의 컨트롤 점수에 이번 라운드 D6 추가 가능."
+            "ko": "내 턴 종료 시, 아군 영토 안에 완전히 있지 않고 적이 경합하지 않는 목표물을 점유하고 있으면 그런 목표물 하나당 1점을 얻습니다. 언더독은 아군 유닛 1개를 골라, 이번 라운드 동안 컨트롤 점수에 D6을 더할 수 있습니다."
           },
           "scoreTiming": "own_turn_end"
         }
@@ -1389,15 +1389,15 @@
           "kind": "terrain_ability",
           "name": {
             "en": "UNHOLY DRAUGHT",
-            "ko": "불경한 한 모금"
+            "ko": "부정한 한 모금"
           },
           "timing": {
             "en": "Once per turn per army, any combat phase",
-            "ko": "군대당 턴 1회, 양쪽 어느 전투 페이즈든"
+            "ko": "턴마다 군대당 1회 · 아무 턴의 전투 페이즈"
           },
           "mechanics": {
             "en": "Friendly unit within 6 inches of Crypt of Blood: D6, +1 for underdog. On 4+, melee hit rolls +1 for the turn; otherwise D3 mortal damage to it.",
-            "ko": "Crypt of Blood 6인치 이내 아군 선택. D6에 언더독이면 +1. 4+이면 이번 턴 근접 명중 +1, 실패하면 자신이 D3 치명 피해."
+            "ko": "피의 납골당(Crypt of Blood)에서 6인치 이내의 아군 유닛 1개를 고르고 주사위를 굴립니다(언더독이면 +1). 4+이면 이번 턴 동안 그 유닛의 근접 명중 굴림에 +1, 실패하면 그 유닛이 치명 피해 D3을 받습니다."
           }
         },
         {
@@ -1409,11 +1409,11 @@
           },
           "timing": {
             "en": "Once per turn per army, end of either turn",
-            "ko": "군대당 턴 1회, 양쪽 어느 턴 종료든"
+            "ko": "턴마다 군대당 1회 · 아무 턴의 종료 시"
           },
           "mechanics": {
             "en": "Friendly unit within 6 inches of Icon of Nulahmia: D6, +1 for underdog. On 4+, control score +3; otherwise -3. Effect lasts for the remainder of that turn.",
-            "ko": "Icon of Nulahmia 6인치 이내 아군 선택. D6에 언더독이면 +1. 4+이면 컨트롤 +3, 실패하면 −3. 해당 턴의 남은 시간 동안 적용."
+            "ko": "눌라미아의 성상(Icon of Nulahmia)에서 6인치 이내의 아군 유닛 1개를 고르고 주사위를 굴립니다(언더독이면 +1). 4+이면 이번 턴이 끝날 때까지 컨트롤 점수 +3, 실패하면 −3입니다."
           }
         }
       ],
@@ -1500,7 +1500,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control a relic within enemy territory. Printed condition says end of turn; normal tactic scoring is own turn end.",
@@ -1514,7 +1514,7 @@
             },
             "timing": {
               "en": "Enemy movement phase",
-              "ko": "상대 이동 페이즈"
+              "ko": "상대 턴의 이동 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit gains STRIKE-FIRST for the turn while in combat with an enemy that charged this turn.",
@@ -1533,7 +1533,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "One enemy unit received all melee attacks from at least two different friendly units this turn.",
@@ -1547,7 +1547,7 @@
             },
             "timing": {
               "en": "Any hero phase",
-              "ko": "양쪽 어느 영웅 페이즈든"
+              "ko": "아무 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit within 6 inches of a relic gains D6 control score until your next turn starts.",
@@ -1566,7 +1566,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Friendly units are within 3 inches of both short board edges.",
@@ -1580,7 +1580,7 @@
             },
             "timing": {
               "en": "End of either turn",
-              "ko": "양쪽 어느 턴 종료든"
+              "ko": "아무 턴의 종료 시"
             },
             "mechanics": {
               "en": "Choose a relic; every unit of either side within 3 inches takes a separately rolled D3 mortal damage.",
@@ -1599,7 +1599,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Enemy general slain this turn; alternatively, general died earlier and an enemy unit was destroyed this turn.",
@@ -1613,7 +1613,7 @@
             },
             "timing": {
               "en": "Enemy charge phase",
-              "ko": "상대 돌격 페이즈"
+              "ko": "상대 턴의 돌격 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit outside combat: make a charge using your charge-phase procedure.",
@@ -1632,7 +1632,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "At least one friendly unit is wholly in enemy territory and outside combat.",
@@ -1646,7 +1646,7 @@
             },
             "timing": {
               "en": "Any charge phase",
-              "ko": "양쪽 어느 돌격 페이즈든"
+              "ko": "아무 턴의 돌격 페이즈"
             },
             "mechanics": {
               "en": "Choose a relic. This turn, friendly units may finish charges within half an inch of it, treating it like an enemy for that purpose.",
@@ -1665,7 +1665,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "An enemy unit was destroyed by a friendly unit while that friendly unit was within 3 inches of a relic.",
@@ -1679,7 +1679,7 @@
             },
             "timing": {
               "en": "Your hero phase",
-              "ko": "자신의 영웅 페이즈"
+              "ko": "내 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "Destroyed friendly unit, not previously replaced: replacement with combined Health at most 4, or one model with damage equal to Health minus 4. Set up over 6 inches from every enemy.",
@@ -1698,7 +1698,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "At least two friendly units are within 3 inches of the battlefield centre.",
@@ -1712,7 +1712,7 @@
             },
             "timing": {
               "en": "Any combat phase",
-              "ko": "양쪽 어느 전투 페이즈든"
+              "ko": "아무 턴의 전투 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit in combat moves 5 inches. It may pass through enemy combat ranges but must finish outside combat.",
@@ -1731,7 +1731,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "A friendly unit is within 3 inches of the long board edge in enemy territory.",
@@ -1745,7 +1745,7 @@
             },
             "timing": {
               "en": "Any combat phase",
-              "ko": "양쪽 어느 전투 페이즈든"
+              "ko": "아무 턴의 전투 페이즈"
             },
             "mechanics": {
               "en": "Choose a relic. Until turn end, friendly units within 3 inches of it gain +1 to hit rolls.",
@@ -1764,7 +1764,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the Twin-Tailed Comet objective.",
@@ -1778,7 +1778,7 @@
             },
             "timing": {
               "en": "Any hero phase",
-              "ko": "양쪽 어느 영웅 페이즈든"
+              "ko": "아무 턴의 영웅 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit: each unmodified melee save of 5+ causes 1 mortal damage to the attacker after its FIGHT resolves. Lasts this turn.",
@@ -1797,7 +1797,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control the Ghal Maraz objective.",
@@ -1811,7 +1811,7 @@
             },
             "timing": {
               "en": "End of either turn",
-              "ko": "양쪽 어느 턴 종료든"
+              "ko": "아무 턴의 종료 시"
             },
             "mechanics": {
               "en": "Relocate a relic: over 3 inches from every enemy unit and over 6 inches from every other relic; wholly on the board under relic-placement rules.",
@@ -1830,7 +1830,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Every friendly unit is within 3 inches of a relic; different units may use different relics.",
@@ -1844,7 +1844,7 @@
             },
             "timing": {
               "en": "Enemy movement phase",
-              "ko": "상대 이동 페이즈"
+              "ko": "상대 턴의 이동 페이즈"
             },
             "mechanics": {
               "en": "Friendly unit outside combat moves D6 inches, without passing through or ending in any enemy combat range.",
@@ -1863,7 +1863,7 @@
             "vp": 1,
             "timing": {
               "en": "Own turn end",
-              "ko": "자기 턴 종료"
+              "ko": "내 턴 종료 시"
             },
             "condition": {
               "en": "Control more relics than the opponent.",
@@ -1877,7 +1877,7 @@
             },
             "timing": {
               "en": "Any combat phase",
-              "ko": "양쪽 어느 전투 페이즈든"
+              "ko": "아무 턴의 전투 페이즈"
             },
             "mechanics": {
               "en": "One friendly unit may FIGHT twice this phase. After its first FIGHT, it suffers D3 mortal damage and gains STRIKE-LAST until turn end.",
@@ -1897,7 +1897,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Each player chooses one objective, active player first. Own turn end: +1 VP per chosen objective controlled. Underdog may roll: 3+ forces opponent to choose a different objective.",
@@ -1915,7 +1915,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Active player first: each selects an enemy within 3 inches of a relic; cap its control score at 1 this round. Underdog places Ulguan Steel Caltrops; if none, roll-off winner places it. Apply relic-placement restrictions.",
@@ -1933,7 +1933,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP for controlling the large terrain in enemy territory. Underdog places Barrel of Emberstone; if none, roll-off winner places it. Apply relic-placement restrictions.",
@@ -1951,7 +1951,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog may obstruct one board edge. Own turn end: +1 VP for each unobstructed edge with no enemy unit within 3 inches.",
@@ -1969,7 +1969,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "This round, friendly units gain +1 to save rolls while within 3 inches of another friendly unit. Underdog places Crate of Aqua Ghyranis; if none, roll-off winner places it. Apply relic-placement restrictions.",
@@ -1987,7 +1987,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP for controlling the relic originally placed in enemy territory. Underdog may give one friendly unit +2 to charge rolls this round.",
@@ -2005,7 +2005,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Active player first: each marks an enemy unit. Round end: +1 VP if the marked enemy was destroyed this round. Underdog places Inconspicuous Manhole; if none, roll-off winner places it. Apply relic-placement restrictions.",
@@ -2023,7 +2023,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Active player first: each selects a friendly loot carrier. Round end: +1 VP if the enemy carrier died this round. Underdog may roll 3+ to force a different enemy carrier selection.",
@@ -2041,7 +2041,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP per relic controlled now but not at turn start. Underdog places Battered Barricade; if none, roll-off winner places it. Apply relic-placement restrictions.",
@@ -2059,7 +2059,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Own turn end: +1 VP for controlling the central large circular junction objective. Underdog places Ulguan Steel Caltrops; if none, roll-off winner places it. Apply relic-placement restrictions.",
@@ -2077,7 +2077,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Underdog first, or active player if tied: each may move up to two friendly units outside combat up to 3 inches immediately. Only underdog units may finish in combat.",
@@ -2095,7 +2095,7 @@
           },
           "revealTiming": {
             "en": "Round start, after determining underdog",
-            "ko": "라운드 시작, 언더독 판정 후"
+            "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
             "en": "Units wholly on roads may CHARGE after RUN. Underdog may give a friendly unit melee Anti-charge (+1 Rend) until round end.",
@@ -2114,7 +2114,7 @@
           },
           "timing": {
             "en": "Once per turn per army, your hero phase",
-            "ko": "군대당 턴 1회, 자신의 영웅 페이즈"
+            "ko": "턴마다 군대당 1회 · 내 턴의 영웅 페이즈"
           },
           "mechanics": {
             "en": "Friendly unit within 3 inches gains +1 to wound until turn end.",
@@ -2130,7 +2130,7 @@
           },
           "timing": {
             "en": "Passive",
-            "ko": "패시브"
+            "ko": "항상 적용"
           },
           "mechanics": {
             "en": "Units of either side wholly within 6 inches have WARD 5+.",
@@ -2146,7 +2146,7 @@
           },
           "timing": {
             "en": "Once per turn per army, your combat phase",
-            "ko": "군대당 턴 1회, 자신의 전투 페이즈"
+            "ko": "턴마다 군대당 1회 · 내 턴의 전투 페이즈"
           },
           "mechanics": {
             "en": "Mandatory for all units of either side within 3 inches that charged this turn. Roll D3 separately: results 2 or 3 inflict that many mortal damage; 1 inflicts none.",
@@ -2162,7 +2162,7 @@
           },
           "timing": {
             "en": "Passive",
-            "ko": "패시브"
+            "ko": "항상 적용"
           },
           "mechanics": {
             "en": "Units wholly within 3 inches cannot be shooting targets unless the attacking model is within their combat range.",
@@ -2178,7 +2178,7 @@
           },
           "timing": {
             "en": "Once per turn per army, your movement phase",
-            "ko": "군대당 턴 1회, 자신의 이동 페이즈"
+            "ko": "턴마다 군대당 1회 · 내 턴의 이동 페이즈"
           },
           "mechanics": {
             "en": "Friendly unit wholly within 3 inches relocates wholly into friendly territory, over 6 inches from all enemies.",
@@ -2418,6 +2418,84 @@
       "checkPoint": {
         "ko": "비공식 번역본을 참고해 정리했습니다. 실물 카드로 최종 확인하세요.",
         "en": "Summarised with help from an unofficial translation. Confirm against the physical card."
+      }
+    },
+    {
+      "id": "fire-take-the-flanks-edges",
+      "cardId": "fire-tactic-03",
+      "severity": "requires_card_confirmation",
+      "description": {
+        "ko": "확인 필요: 이 요약만으로는 해당 규칙이 명확하지 않습니다. 실물 카드 및 최신 공식 자료를 확인한 후 진행하세요.",
+        "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
+      },
+      "checkPoint": {
+        "ko": "양쪽 짧은 가장자리 각각에 아군이 있어야 하는지, 한쪽만이어도 되는지 (번역본은 한쪽)",
+        "en": "Whether both short edges are needed or just one (the translation says one)"
+      }
+    },
+    {
+      "id": "fire-let-the-blood-flow",
+      "cardId": "fire-aqshy-twist-02",
+      "severity": "requires_card_confirmation",
+      "description": {
+        "ko": "확인 필요: 이 요약만으로는 해당 규칙이 명확하지 않습니다. 실물 카드 및 최신 공식 자료를 확인한 후 진행하세요.",
+        "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
+      },
+      "checkPoint": {
+        "ko": "점수를 내 턴 종료 시 받는지 적을 파괴할 때마다 받는지, 명중 +1이 근접 공격에만 적용되는지",
+        "en": "Whether points come at the end of your turn or on each kill, and whether +1 to hit is melee only"
+      }
+    },
+    {
+      "id": "fire-mount-the-attack",
+      "cardId": "fire-aqshy-twist-05",
+      "severity": "requires_card_confirmation",
+      "description": {
+        "ko": "확인 필요: 이 요약만으로는 해당 규칙이 명확하지 않습니다. 실물 카드 및 최신 공식 자료를 확인한 후 진행하세요.",
+        "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
+      },
+      "checkPoint": {
+        "ko": "점수를 내 턴 종료 시 받는지 목표물을 빼앗을 때마다 받는지, Charge (+1 Damage)가 근접 무기에만 적용되는지",
+        "en": "Whether points come at the end of your turn or each time you take an objective, and whether Charge (+1 Damage) is melee only"
+      }
+    },
+    {
+      "id": "fire-grasping-vines",
+      "cardId": "fire-ghyran-twist-04",
+      "severity": "requires_card_confirmation",
+      "description": {
+        "ko": "확인 필요: 이 요약만으로는 해당 규칙이 명확하지 않습니다. 실물 카드 및 최신 공식 자료를 확인한 후 진행하세요.",
+        "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
+      },
+      "checkPoint": {
+        "ko": "돌격 굴림에서 주사위 1개를 빼는지, 결과에 −1인지 (번역본은 −1)",
+        "en": "Whether the charge roll loses one dice or gets −1 (the translation says −1)"
+      }
+    },
+    {
+      "id": "sand-uncompromising-invasion",
+      "cardId": "sand-ossia-twist-06",
+      "severity": "requires_card_confirmation",
+      "description": {
+        "ko": "확인 필요: 이 요약만으로는 해당 규칙이 명확하지 않습니다. 실물 카드 및 최신 공식 자료를 확인한 후 진행하세요.",
+        "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
+      },
+      "checkPoint": {
+        "ko": "조건을 만족하는 목표물 하나당 1점인지, 한 번만 1점인지",
+        "en": "Whether it is 1 point per qualifying objective or 1 point once"
+      }
+    },
+    {
+      "id": "sand-unholy-draught-melee",
+      "cardId": "unholy-draught",
+      "severity": "requires_card_confirmation",
+      "description": {
+        "ko": "확인 필요: 이 요약만으로는 해당 규칙이 명확하지 않습니다. 실물 카드 및 최신 공식 자료를 확인한 후 진행하세요.",
+        "en": "Needs checking: this summary alone does not make the rule clear. Check the physical card and the latest official materials before continuing."
+      },
+      "checkPoint": {
+        "ko": "명중 +1이 근접 공격에만 적용되는지 (번역본은 모든 명중 굴림)",
+        "en": "Whether +1 to hit is melee only (the translation says all hit rolls)"
       }
     }
   ]
