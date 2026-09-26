@@ -186,8 +186,8 @@
               "ko": "내 턴 종료 시"
             },
             "condition": {
-              "ko": "상대방이 소유하던 오브젝트를 빼앗았고, 그 유닛들이 이번 턴에 근접 능력을 사용하지 않았다면 달성합니다.",
-              "en": "You took an objective held by the opponent, and those units did not use a melee ability this turn."
+              "ko": "확인 필요: 제공된 번역의 달성 조건이 공식 FAQ와 다릅니다. 달성 대상 지형과 세부 조건은 실물 카드를 확인하세요. 지형 점유는 모델 수가 아니라 컨트롤 점수로 판정합니다.",
+              "en": "Needs confirmation: the supplied translated condition conflicts with the official FAQ. Check the physical card for the required terrain and full condition. Determine terrain control using control scores, not model counts."
             }
           },
           "command": {
@@ -203,7 +203,16 @@
               "en": "Heal a friendly HERO by D6.",
               "ko": "아군 영웅 1개를 고릅니다. 주사위 1개(D6)를 굴려 나온 값만큼 그 영웅의 피해를 회복합니다."
             }
-          }
+          },
+          "officialCorrections": [
+            {
+              "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=17",
+              "note": {
+                "ko": "2026년 9월 공식 FAQ 반영: 지형 점유는 단순 모델 수가 아니라 컨트롤 점수로 판정합니다.",
+                "en": "September 2026 FAQ applied: determine terrain control using control scores rather than model counts."
+              }
+            }
+          ]
         },
         {
           "id": "fire-tactic-06",
@@ -607,14 +616,23 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "Each player scores 1 extra VP for occupying the large terrain in enemy territory with more models. The underdog gets +1 to wound against enemy models occupying a large terrain feature. (Occupying terrain: models within 3 inches of it.)",
-            "ko": "각 플레이어는 상대방 영역에 있는 대형 지형을 더 많은 모델로 점거하면 승점 1점을 추가로 얻습니다. 언더독은 대형 지형을 점거하고 있는 적 모델을 공격할 때 운드 굴림에 +1을 받습니다. (지형 점거: 지형에서 3\" 이내에 모델이 있어야 합니다.)"
+            "en": "Each player scores 1 extra VP for occupying the large terrain in enemy territory using terrain control scores. The underdog gets +1 to wound against enemy models occupying a large terrain feature. (Models within 3 inches contest the terrain; compare control scores under the terrain control rules.)",
+            "ko": "각 플레이어는 상대방 영역에 있는 대형 지형을 컨트롤 점수에 따른 지형 점유 판정으로 점유하면 승점 1점을 추가로 얻습니다. 언더독은 대형 지형을 점거하고 있는 적 모델을 공격할 때 운드 굴림에 +1을 받습니다. (지형 경합: 지형에서 3\" 이내의 모델이 참여합니다. 점유 여부는 지형 점유 규칙에 따른 컨트롤 점수를 비교합니다.)"
           },
           "scoreTiming": "own_turn_end",
           "scoreTimingLabel": {
             "ko": "적 영역 대형 지형 점거 시 득점 · 세부 시점은 자료에 미기재",
             "en": "Score for occupying large terrain in enemy territory; exact timing not specified in supplied material"
-          }
+          },
+          "officialCorrections": [
+            {
+              "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=17",
+              "note": {
+                "ko": "2026년 9월 공식 FAQ 반영: 지형 점유는 단순 모델 수가 아니라 컨트롤 점수로 판정합니다.",
+                "en": "September 2026 FAQ applied: determine terrain control using control scores rather than model counts."
+              }
+            }
+          ]
         },
         {
           "id": "fire-ghyran-twist-04",
@@ -676,8 +694,15 @@
         {
           "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=17",
           "mechanics": {
-            "ko": "카드 설명은 제공받은 번역 자료 기준입니다. HOLD GROUND와 TAKE THE LAND의 공식 판정은 최신 공식 자료에서 별도로 확인하세요.",
-            "en": "Card descriptions follow the supplied translation. Consult the latest official materials separately for official HOLD GROUND and TAKE THE LAND rulings."
+            "ko": "2026년 9월 공식 FAQ 반영: 지형 점유는 단순 모델 수가 아니라 컨트롤 점수로 판정합니다.",
+            "en": "September 2026 FAQ applied: determine terrain control using control scores rather than model counts."
+          }
+        },
+        {
+          "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=17",
+          "mechanics": {
+            "ko": "지형 뒤 판정: 공격 모델의 베이스에서 가장 가까운 지점과 대상 유닛 모델의 베이스에서 가장 가까운 지점을 잇는 직선이 지형을 지나지 않고는 그어질 수 없다면, 해당 공격에 대해 대상 유닛은 지형 뒤에 있는 것으로 봅니다.",
+            "en": "Behind terrain: for an attack, if a straight line between the closest base points of the attacking model and a model in the target unit cannot avoid crossing terrain, treat the target unit as behind terrain for that attack."
           }
         }
       ],
@@ -1182,14 +1207,19 @@
             "ko": "라운드 시작 (언더독 확인 후)"
           },
           "mechanics": {
-            "en": "At the end of the turn, each player scores 1 VP per friendly unit destroyed or replaced. The underdog may also pick one friendly unit: it can charge even if it retreated or ran that turn. (If there is no underdog, the roll-off winner becomes the underdog.)",
-            "ko": "각 플레이어는 턴이 끝날 때, 파괴되거나 대체된 아군 유닛 하나당 승점 1점을 얻습니다. 추가로 언더독은 아군 유닛 1개를 고를 수 있습니다. 고른 유닛은 같은 턴에 후퇴나 달리기를 했더라도 돌격할 수 있습니다. (언더독이 없으면 롤오프 승자가 언더독이 됩니다.)"
+            "ko": "각 플레이어는 자신의 턴 종료 시, 자신의 스피어헤드에 원래 포함된 유닛 중 이번 전투에서 파괴되었거나 대체된 유닛마다 승점 1점을 얻습니다. 대체 유닛 자체는 계산에 포함하지 않습니다.\n추가로 언더독은 아군 유닛 1개를 고를 수 있습니다. 고른 유닛은 같은 턴에 후퇴나 달리기를 했더라도 돌격할 수 있습니다. (언더독이 없으면 롤오프 승자가 언더독이 됩니다.)",
+            "en": "At the end of your own turn, score 1 VP for each original unit in your Spearhead that has been destroyed or replaced during this battle. Do not count replacement units themselves.\nThe underdog may also choose one friendly unit that can charge even if it ran or retreated that turn. If there is no underdog, the roll-off winner becomes the underdog."
           },
           "scoreTiming": "own_turn_end",
-          "scoreTimingLabel": {
-            "ko": "턴 종료 시 각 플레이어 득점",
-            "en": "Each player scores at turn end"
-          }
+          "officialCorrections": [
+            {
+              "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=18",
+              "note": {
+                "ko": "2026년 9월 공식 정오표 반영: 자기 턴 종료에 원래 스피어헤드 유닛만 계산하며, 대체 유닛은 별도로 세지 않습니다.",
+                "en": "September 2026 errata applied: score at your own turn end, counting original Spearhead units and excluding replacement units."
+              }
+            }
+          ]
         },
         {
           "id": "sand-dolorum-twist-03",
@@ -1414,8 +1444,15 @@
         {
           "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=18",
           "mechanics": {
-            "ko": "트위스트 설명은 제공받은 번역 PDF 기준입니다. SURVIVOR’S GRIEF 및 배치·지형의 공식 판정은 최신 공식 자료에서 별도로 확인하세요.",
-            "en": "Twist descriptions follow the supplied translation PDF. Consult the latest official materials separately for SURVIVOR’S GRIEF and setup/terrain rulings."
+            "ko": "2026년 9월 정오표 반영: 생존자의 비탄 득점 조건과 살아 있는 뼈의 기념비 효과를 적용했습니다. 오시아 준비 단계에서는 전장 중앙에 Crypt of Blood를 배치합니다.",
+            "en": "September 2026 errata applied: Survivor’s Grief scoring and Monument of Living Bone are corrected. Ossia setup places the Crypt of Blood at the battlefield centre."
+          }
+        },
+        {
+          "url": "https://assets.warhammer-community.com/eng_23-09_aos_core%26key_rule_updates-eu6fu82jl3-dlyuiignte.pdf#page=18",
+          "mechanics": {
+            "ko": "지형 뒤 판정: 공격 모델의 베이스에서 가장 가까운 지점과 대상 유닛 모델의 베이스에서 가장 가까운 지점을 잇는 직선이 지형을 지나지 않고는 그어질 수 없다면, 해당 공격에 대해 대상 유닛은 지형 뒤에 있는 것으로 봅니다.",
+            "en": "Behind terrain: for an attack, if a straight line between the closest base points of the attacking model and a model in the target unit cannot avoid crossing terrain, treat the target unit as behind terrain for that attack."
           }
         }
       ],
@@ -2390,5 +2427,14 @@
       "noteKo": "1~6 결과"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "id": "fire-hold-ground-condition",
+      "cardId": "fire-tactic-05",
+      "checkPoint": {
+        "ko": "실물 HOLD GROUND의 달성 대상 지형과 전체 조건을 확인하세요.",
+        "en": "Check the required terrain and full scoring condition on the physical HOLD GROUND card."
+      }
+    }
+  ]
 }
