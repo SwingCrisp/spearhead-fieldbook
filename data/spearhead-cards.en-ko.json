@@ -929,8 +929,8 @@
               "ko": "내 턴의 영웅 페이즈"
             },
             "mechanics": {
-              "ko": "파괴되었고 아직 대체되지 않은 아군 유닛 1개를 고릅니다. 다음 중 하나로 대체 유닛을 배치합니다.\n· 모델들의 체력(Health) 특성 합계가 4 이하인 유닛.\n· 모델 1개로 구성된 유닛. 이 모델은 자신의 체력(Health)에서 4를 뺀 만큼 피해를 받은 상태로 배치합니다.\n모든 적 유닛에게서 6인치보다 먼 곳에 배치해야 합니다.",
-              "en": "Choose a destroyed friendly unit that has not been replaced. Set up a replacement either with total model Health of 4 or less, or with one model carrying damage equal to its Health minus 4. Place it more than 6 inches from every enemy unit."
+              "ko": "파괴되었고 아직 대체되지 않은 아군 유닛 1개를 고릅니다. 그 유닛의 대체 유닛을 다음 두 방식 중 하나로 배치합니다.\n① 체력 합계 4 이하: 배치하는 모델들의 체력(Health) 특성을 모두 더한 값이 4 이하여야 합니다.\n② 모델 1개로 배치: 그 모델의 체력(Health) 특성에서 4를 뺀 만큼 피해를 이미 받은 상태로 배치합니다.\n두 방식 모두 모든 적 유닛으로부터 6인치보다 멀리 배치해야 합니다. 정확히 6인치 거리는 허용되지 않습니다.\n계산 예시: ① 모델당 체력 1이면 최대 4개, 체력 2이면 최대 2개. ② 체력 10인 모델 1개라면 피해 6을 받은 상태로 배치하므로 남은 체력은 4입니다.",
+              "en": "Choose a destroyed friendly unit that has not yet been replaced. Set up its replacement using one of these two options.\n1. Combined Health up to 4: add together the Health characteristics of all models you set up; the total must be 4 or less.\n2. Set up one model: it starts with damage equal to its Health characteristic minus 4 already allocated to it.\nWith either option, place the unit more than 6 inches from every enemy unit. Exactly 6 inches is not far enough.\nCalculation examples: option 1 allows up to four Health-1 models or two Health-2 models. Under option 2, one Health-10 model starts with 6 damage allocated, leaving 4 health remaining."
             }
           }
         },
